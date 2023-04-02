@@ -28,7 +28,7 @@ controller = GetComponent<PlayerController>();
         if (Input.GetKeyUp(left)) {  controller.MoveLeft(); }
         if (Input.GetKeyUp(right)) {  controller.MoveRight(); }
         if (Input.GetKeyUp(turnLeft)) { controller.RotateLeft(); }
-        if (!Input.GetKeyUp(turnRight)) {  controller.RotateRight(); }
+        if (Input.GetKeyUp(turnRight)) {  controller.RotateRight(); }
 
     }
 
