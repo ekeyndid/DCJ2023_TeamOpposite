@@ -310,6 +310,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935047670}
+  - component: {fileID: 1935047672}
+  - component: {fileID: 1935047671}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -334,6 +336,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1935047671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935047669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287f0f8f94ca8b9428e267e982c10992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forward: 119
+  back: 115
+  left: 97
+  right: 100
+  turnLeft: 113
+  turnRight: 101
+--- !u!114 &1935047672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935047669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb41b8a511bf60e40ae4d3565bc524e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothTransition: 1
+  transitionSpeed: 5
+  transitionRotationSpeed: 100
 --- !u!1001 &5801881605703678070
 PrefabInstance:
   m_ObjectHideFlags: 0
