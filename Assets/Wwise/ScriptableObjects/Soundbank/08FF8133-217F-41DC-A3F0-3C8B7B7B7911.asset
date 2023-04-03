@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d84480f0b32d3438a24d6e617ba299, type: 3}
+  m_Name: 08FF8133-217F-41DC-A3F0-3C8B7B7B7911
+  m_EditorClassIdentifier: 
+  objectName: GameplayLoop
+  id: 1646894747
+  guid: 08FF8133-217F-41DC-A3F0-3C8B7B7B7911
+  bank: {fileID: 11400000, guid: 8d39908eb5abdc04f9844f03bba03a25, type: 2}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="DCJ2023_TeamOpposite_WwiseProject" GUID="{FDF1EB16-780B-4187-8772-3DAFD386448E}" Generator="2022.1.0.8070"/>
+	<CacheRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{47545413-EF37-4398-8E1C-C1F3C9EDC623}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../WwiseData/Banks/Mac"/>
+		<Platform Name="Web" GUID="{8858A016-3768-4780-8344-E6B0A49FF22D}" BasePlatform="Web" BasePlatformGUID="{639AD233-23F2-4C0F-9127-79F44C15E1DA}" Path="../../../WwiseData/Banks/Web"/>
+		<Platform Name="Windows" GUID="{A9216D4A-4D85-49DC-A883-D43DB3B57558}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../WwiseData/Banks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F87084FA-8072-4845-8CEA-2C4A5143D000}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{3CFEC14E-04FA-61C5-2A7E-74A6A22ADB24}</FileHash>
+</ProjectInfo>

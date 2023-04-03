@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../DCJ2023_TeamOpposite_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F52A95D3-C642-5868-3CFE-5256AA66AC16}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="77978275" Name="Ambient"/>
+				<Bus Id="833916109" Name="NPCs"/>
+				<Bus Id="838047381" Name="Non-World"/>
+				<Bus Id="1069431850" Name="Player"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1695690031" Name="Objects"/>
+				<Bus Id="2609808943" Name="World"/>
+				<Bus Id="3170124113" Name="Voice"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{7271B635-B975-A709-65B2-619345E3901A}">
+			<ShortName>GameplayLoop</ShortName>
+			<Path>GameplayLoop.bnk</Path>
+			<Media>
+				<File Id="604467236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeliverComplete.wav</ShortName>
+					<CachePath>SFX/DeliverComplete_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="38624190" Name="testSound" DurationType="OneShot" DurationMin="3.568479" DurationMax="3.568479">
+					<MediaRefs>
+						<MediaRef Id="604467236"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CC03AE4C-4BD1-6781-152A-C25D07B7FAE6}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DF0A29D9-43E6-4C35-A254-9AF4B9513187}" SchemaVersion="110" RootDocumentID="{6CECBB30-E119-4942-8BAF-95BBBB8386F6}" ParentDocumentID="{6CECBB30-E119-4942-8BAF-95BBBB8386F6}">
+	<SoundBanks>
+		<WorkUnit Name="General" ID="{DF0A29D9-43E6-4C35-A254-9AF4B9513187}" OwnerID="{6CECBB30-E119-4942-8BAF-95BBBB8386F6}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="GameplayLoop" ID="{08FF8133-217F-41DC-A3F0-3C8B7B7B7911}">
+					<ObjectInclusionList>
+						<ObjectRef Name="testSound" ID="{68264587-F2BA-409C-82A4-01DFBAF5D22B}" WorkUnitID="{78B08882-D098-49AF-B63E-6E091B951791}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
