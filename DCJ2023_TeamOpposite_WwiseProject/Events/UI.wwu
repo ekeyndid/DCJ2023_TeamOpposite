@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D018AFD-87C6-4968-851D-C64847CFA237}" SchemaVersion="110" RootDocumentID="{40481242-8ECF-4063-B5AE-1ED7E406C882}" ParentDocumentID="{40481242-8ECF-4063-B5AE-1ED7E406C882}">
+	<Events>
+		<WorkUnit Name="UI" ID="{5D018AFD-87C6-4968-851D-C64847CFA237}" OwnerID="{40481242-8ECF-4063-B5AE-1ED7E406C882}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="testSound" ID="{02F42181-D538-40D8-AB36-F750DBCE7A9F}">
+					<ChildrenList>
+						<Action Name="" ID="{22A1D438-DE4C-4A1B-A1C2-D99013F520C5}" ShortID="506250552">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeliverComplete" ID="{C6BAF03C-48FE-4A5E-BD3C-F6161A6033FB}" WorkUnitID="{0A9E6CD7-872B-49CA-B599-0C998B2F1894}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

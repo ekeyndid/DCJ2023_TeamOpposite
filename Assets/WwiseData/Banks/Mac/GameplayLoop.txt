@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	38624190	testSound			\Default Work Unit\UI\testSound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	607907579	DeliverComplete	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Mac\SFX\DeliverComplete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\DeliverComplete		685244
+

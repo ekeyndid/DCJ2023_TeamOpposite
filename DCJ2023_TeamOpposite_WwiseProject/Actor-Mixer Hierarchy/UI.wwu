@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A9E6CD7-872B-49CA-B599-0C998B2F1894}" SchemaVersion="110" RootDocumentID="{AD907FA4-2BE5-4490-A68F-357D8651C610}" ParentDocumentID="{AD907FA4-2BE5-4490-A68F-357D8651C610}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{0A9E6CD7-872B-49CA-B599-0C998B2F1894}" OwnerID="{C08F6991-D6D7-4A0E-BFC6-E2FD3EBBAFBD}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{FDAE0B9A-5879-4404-87F2-BA37E026C336}" ShortID="185306393">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66EF28F1-12C9-435D-BBAB-D5B4B3F5257D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C00E164E-20B1-4D71-9F45-6BD23B74B4AC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Buttons" ID="{8B349392-E3B3-4A42-B348-9A79A2C0B3D1}" ShortID="837218656">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66EF28F1-12C9-435D-BBAB-D5B4B3F5257D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C00E164E-20B1-4D71-9F45-6BD23B74B4AC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<Sound Name="DeliverComplete" ID="{C6BAF03C-48FE-4A5E-BD3C-F6161A6033FB}" ShortID="18783754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66EF28F1-12C9-435D-BBAB-D5B4B3F5257D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C00E164E-20B1-4D71-9F45-6BD23B74B4AC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DeliverComplete" ID="{11052FC5-E5FB-48AB-8051-A2DDD9E68366}">
+									<Language>SFX</Language>
+									<AudioFile>DeliverComplete.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="607907579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DeliverComplete" ID="{11052FC5-E5FB-48AB-8051-A2DDD9E68366}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

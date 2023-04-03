@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../DCJ2023_TeamOpposite_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{66A8B5E8-E6C4-27A2-08EC-8AC32D2D6BBF}">
+			<ShortName>GameplayLoop</ShortName>
+			<Path>GameplayLoop.bnk</Path>
+			<Media>
+				<File Id="607907579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeliverComplete.wav</ShortName>
+					<CachePath>SFX/DeliverComplete_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="38624190" Name="testSound" DurationType="OneShot" DurationMin="3.568479" DurationMax="3.568479">
+					<MediaRefs>
+						<MediaRef Id="607907579"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{23034BF9-F863-14A5-9F82-CAA1B9A36287}</FileHash>
+</SoundBanksInfo>

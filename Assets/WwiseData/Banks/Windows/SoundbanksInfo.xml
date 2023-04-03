@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../DCJ2023_TeamOpposite_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../DCJ2023_TeamOpposite_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{66A8B5E8-E6C4-27A2-08EC-8AC32D2D6BBF}">
+			<ShortName>GameplayLoop</ShortName>
+			<Path>GameplayLoop.bnk</Path>
+			<Media>
+				<File Id="607907579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeliverComplete.wav</ShortName>
+					<CachePath>SFX/DeliverComplete_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="38624190" Name="testSound" DurationType="OneShot" DurationMin="3.568479" DurationMax="3.568479">
+					<MediaRefs>
+						<MediaRef Id="607907579"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{82D6AF38-C944-4BA9-C8CA-2D43F358F4EF}</FileHash>
+</SoundBanksInfo>
