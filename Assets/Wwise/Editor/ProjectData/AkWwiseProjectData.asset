@@ -17,6 +17,7 @@ MonoBehaviour:
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -25,12 +26,23 @@ MonoBehaviour:
     guid: 558319690a815f4d9d8d9798d7dd56d8
     GuidInternal: 
     m_lastTime: -8585210272764299844
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "U\0\x19i\n\0_M\0\0\0\0\u05DDV\u0610"
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: "U\0\x19i\n\0_M\0\0\0\0\u05DDV\u0607"
+    GuidInternal: 
+    m_lastTime: -8585210330928501362
+>>>>>>> Stashed changes
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -42,10 +54,24 @@ MonoBehaviour:
     List:
     - name: Ambient
       guid: eded765f80b52c42b0832094a354849d
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0110"
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0107"
+    GuidInternal: 
+    m_lastTime: -8585210330928936610
+    List:
+    - name: Ambient
+      guid: "\uDB76_\0\0,B\0\0 \0\0T\0\0"
+>>>>>>> Stashed changes
       id: 77978275
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -62,10 +88,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Ambient
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: "\uDB76_\0\0,B\0\0 \0\0T\0\0"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Ambient
+    - name: Master Audio Bus
+      guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000E9933"
+>>>>>>> Stashed changes
       id: 3803692087
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -76,10 +121,23 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
     - name: Music
       guid: e1f33018db19d14a94335337046a620c
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000D0874"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: "\u1CF0\x18\u06D9\u044A\03S7\x04jb\f"
+>>>>>>> Stashed changes
       id: 3991942870
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -96,10 +154,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music
     - name: Non-World
       guid: ca69d5b2cf36c44fa5d2882b81217bbf
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: Non-World
+        ObjectType: 2
+        guid: "\u02A9\u0572\u03F6\u010F\0\u0488+\0!{\0"
+      - ElementName: Music
+        ObjectType: 2
+        guid: "\u1CF0\x18\u06D9\u044A\03S7\x04jb\f"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music
+    - name: Non-World
+      guid: "\u02A9\u0572\u03F6\u010F\0\u0488+\0!{\0"
+>>>>>>> Stashed changes
       id: 838047381
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -113,10 +190,26 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World
     - name: NPCs
       guid: 8d150c81b9e7574e8f1b208fc80f8c71
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: Non-World
+        ObjectType: 2
+        guid: "\u02A9\u0572\u03F6\u010F\0\u0488+\0!{\0"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World
+    - name: NPCs
+      guid: "\0\x15\f\0\0\u75CE\0\e \0\u020F\0q"
+>>>>>>> Stashed changes
       id: 833916109
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -133,10 +226,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\NPCs
     - name: Objects
       guid: 510852aa76b9bd4dab41605048ede1d7
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+      - ElementName: NPCs
+        ObjectType: 2
+        guid: "\0\x15\f\0\0\u75CE\0\e \0\u020F\0q"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\NPCs
+    - name: Objects
+      guid: "Q\bR\0v\0\0M\0A`PH\uD857"
+>>>>>>> Stashed changes
       id: 1695690031
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -153,10 +265,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Objects
     - name: Player
       guid: d1835c6c59c46a44b16731be98ac00df
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+      - ElementName: Objects
+        ObjectType: 2
+        guid: "Q\bR\0v\0\0M\0A`PH\uD857"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Objects
+    - name: Player
+      guid: "\u0443\\lY\u012AD\0g1\0\0\0"
+>>>>>>> Stashed changes
       id: 1069431850
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -173,10 +304,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Player
     - name: UI
       guid: de20c60e34c9064e942a2e5f8c42ec98
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+      - ElementName: Player
+        ObjectType: 2
+        guid: "\u0443\\lY\u012AD\0g1\0\0\0"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Player
+    - name: UI
+      guid: "\u07A0\u018E4\u0246N\0*._\0B\uC629"
+>>>>>>> Stashed changes
       id: 1551306167
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -193,10 +343,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI
     - name: Voice
       guid: 6797aa17f3b8974aa92bc99c39f7af3b
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: Non-World
+        ObjectType: 2
+        guid: "\u02A9\u0572\u03F6\u010F\0\u0488+\0!{\0"
+      - ElementName: UI
+        ObjectType: 2
+        guid: "\u07A0\u018E4\u0246N\0*._\0B\uC610"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI
+    - name: Voice
+      guid: "g\0\0\x17\U000F85CA\0+\u025C9\U001EFEE9"
+>>>>>>> Stashed changes
       id: 3170124113
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -213,10 +382,29 @@ MonoBehaviour:
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Voice
     - name: World
       guid: ddf4ee1cce6d1e479f889285f5afe6a5
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+      - ElementName: Voice
+        ObjectType: 2
+        guid: "g\0\0\x17\U000F85CA\0+\u025C9\U001EFED0"
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Voice
+    - name: World
+      guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+>>>>>>> Stashed changes
       id: 2609808943
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -227,12 +415,25 @@ MonoBehaviour:
       - ElementName: World
         ObjectType: 2
         guid: ddf4ee1cce6d1e479f889285f5afe6a5
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "\b\u01F8\x7F\0eA\0X\u0641\0\00\u0105"
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: "\u0624\x14\x15\0\x1D*A\0~u\u028C!I\U000C5B25"
+      - ElementName: World
+        ObjectType: 2
+        guid: "\u0774\uE70Em\x1EG\0\0\0\0\U0016F9A5"
+>>>>>>> Stashed changes
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -241,11 +442,22 @@ MonoBehaviour:
     guid: 30bbec6c19e142498baf95bbbb8386f6
     GuidInternal: 
     m_lastTime: -8585210272764319957
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "0\0\uCB19\u1089\0\0\0\0\0\0\0\U00190872"
+    ParentPath: SoundBanks\Default Work Unit
+    guid: "0\0\uCB19\u1089\0\0\0\0\0\0\0\U00187D69"
+    GuidInternal: 
+    m_lastTime: -8585210330928515916
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: SoundBanks\General.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -260,10 +472,27 @@ MonoBehaviour:
     List:
     - name: GameplayLoop
       guid: 3381ff087f21dc41a3f03c8b7b7b7911
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "0\0\uCB19\u1089\0\0\0\0\0\0\0\U00185B25"
+    - ElementName: General
+      ObjectType: 12
+      guid: "\u0669\n\u07E6C5L\0T\0\U00139471\0"
+    ParentPath: SoundBanks\Default Work Unit\General
+    guid: "\u0669\n\u07E6C5L\0T\0\U00139471\0"
+    GuidInternal: 
+    m_lastTime: -8585210330928515916
+    List:
+    - name: GameplayLoop
+      guid: "3\0\0\b\x7F!\u0701\0\U0003C2FB{y\x11"
+>>>>>>> Stashed changes
       id: 1646894747
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -274,12 +503,25 @@ MonoBehaviour:
       - ElementName: GameplayLoop
         ObjectType: 7
         guid: 3381ff087f21dc41a3f03c8b7b7b7911
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "0\0\uCB19\u1089\0\0\0\0\0\0\0\U00185B25"
+      - ElementName: General
+        ObjectType: 12
+        guid: "\u0669\n\u07E6C5L\0T\0\U00139471\0"
+      - ElementName: GameplayLoop
+        ObjectType: 7
+        guid: "3\0\0\b\x7F!\u0701\0\U0003C2FB{y\x11"
+>>>>>>> Stashed changes
       Path: SoundBanks\Default Work Unit\General\GameplayLoop
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -288,11 +530,22 @@ MonoBehaviour:
     guid: 381a58eafbec4944adb778791e244c9b
     GuidInternal: 
     m_lastTime: -8585210272764359644
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    ParentPath: Events\Default Work Unit
+    guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    GuidInternal: 
+    m_lastTime: -8585210330928956449
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -304,11 +557,25 @@ MonoBehaviour:
     guid: 67129834523ac54db17d03aa54f2f8ce
     GuidInternal: 
     m_lastTime: -8585210272764359644
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    - ElementName: Music
+      ObjectType: 12
+      guid: "g\x12\04R:\u014D\0}\x03\0T\U000B8390"
+    ParentPath: Events\Default Work Unit\Music
+    guid: "g\x12\04R:\u014D\0}\x03\0T\U000B8387"
+    GuidInternal: 
+    m_lastTime: -8585210330928951489
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: Events\NPCs.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -320,11 +587,25 @@ MonoBehaviour:
     guid: 8f5dd1a06e341d4cb61e7a2b4ac29531
     GuidInternal: 
     m_lastTime: -8585210272764359644
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    - ElementName: NPCs
+      ObjectType: 12
+      guid: "\0]\u0460n4\x1DL\0\x1Ez+J\x951"
+    ParentPath: Events\Default Work Unit\NPCs
+    guid: "\0]\u0460n4\x1DL\0\x1Ez+J\x951"
+    GuidInternal: 
+    m_lastTime: -8585210330928951489
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: Events\Objects.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -336,11 +617,25 @@ MonoBehaviour:
     guid: 9236380a9d093644bfb8b5d219ad2cae
     GuidInternal: 
     m_lastTime: -8585210272764354685
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    - ElementName: Objects
+      ObjectType: 12
+      guid: "\068\n\0\t6D\0\0\0\u0499\0,\0"
+    ParentPath: Events\Default Work Unit\Objects
+    guid: "\068\n\0\t6D\0\0\0\u0499\0,\0"
+    GuidInternal: 
+    m_lastTime: -8585210330928946530
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -352,11 +647,25 @@ MonoBehaviour:
     guid: 6bd2af3a3b735044827cf864f5606ddb
     GuidInternal: 
     m_lastTime: -8585210272764354685
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    - ElementName: Player
+      ObjectType: 12
+      guid: "k\u04AF:;sPD\0|\0d\U00160B5B"
+    ParentPath: Events\Default Work Unit\Player
+    guid: "k\u04AF:;sPD\0|\0d\U00160B5B"
+    GuidInternal: 
+    m_lastTime: -8585210330928946530
+>>>>>>> Stashed changes
     List: []
   - PhysicalPath: Events\UI.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -371,10 +680,27 @@ MonoBehaviour:
     List:
     - name: testSound
       guid: 87452668baf29c4082a401dfbaf5d22b
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+    - ElementName: UI
+      ObjectType: 12
+      guid: "\0\0\0x\0\u042FI\0>n\t\e\0\x17\0"
+    ParentPath: Events\Default Work Unit\UI
+    guid: "\0\0\0x\0\u042FI\0>n\t\e\0\x17\0"
+    GuidInternal: 
+    m_lastTime: -8585210330928946530
+    List:
+    - name: testSound
+      guid: "\0E&h\0\U0009C002\0\x01\u07FA\U00152AE9"
+>>>>>>> Stashed changes
       id: 38624190
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
+<<<<<<< Updated upstream
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -385,6 +711,18 @@ MonoBehaviour:
       - ElementName: testSound
         ObjectType: 3
         guid: 87452668baf29c4082a401dfbaf5d22b
+=======
+        guid: 
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: "8\x1AX\uAEECID\0\0xy\x1E$L\0"
+      - ElementName: UI
+        ObjectType: 12
+        guid: "\0\0\0x\0\u042FI\0>n\t\e\0\x17\0"
+      - ElementName: testSound
+        ObjectType: 3
+        guid: "\0E&h\0\U0009C002\0\x01\u07FA\U00152AD0"
+>>>>>>> Stashed changes
       Path: Events\Default Work Unit\UI\testSound
       maxAttenuation: 0
       maxDuration: -1
@@ -394,6 +732,7 @@ MonoBehaviour:
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -402,12 +741,23 @@ MonoBehaviour:
     guid: 2a8fb7b0c4351f4ab51663f21a14b36e
     GuidInternal: 
     m_lastTime: -8585210272764349726
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "*\0\0\0\u0135\x1FJ\0\x16c\U0009A533n"
+    ParentPath: Game Parameters\Default Work Unit
+    guid: "*\0\0\0\u0135\x1FJ\0\x16c\U0009A533n"
+    GuidInternal: 
+    m_lastTime: -8585210330928941571
+>>>>>>> Stashed changes
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -416,12 +766,23 @@ MonoBehaviour:
     guid: a4a946ebbd6a1647aa98ae8dcd48ce08
     GuidInternal: 
     m_lastTime: -8585210272764309793
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "\0\0F\uBF6A\x16G\0\0\0\0\u0348\u0388"
+    ParentPath: States\Default Work Unit
+    guid: "\0\0F\uBF6A\x16G\0\0\0\0\u0348\u0388"
+    GuidInternal: 
+    m_lastTime: -8585210330928511037
+>>>>>>> Stashed changes
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -430,12 +791,23 @@ MonoBehaviour:
     guid: 1e30c706332a8d47920c1eec82be944f
     GuidInternal: 
     m_lastTime: -8585210272764305076
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "\x1E0\u01C63*\0G\0\f\x1E\uC0BE\0O"
+    ParentPath: Switches\Default Work Unit
+    guid: "\x1E0\u01C63*\0G\0\f\x1E\uC0BE\0O"
+    GuidInternal: 
+    m_lastTime: -8585210330928506322
+>>>>>>> Stashed changes
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
+<<<<<<< Updated upstream
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -444,6 +816,16 @@ MonoBehaviour:
     guid: 4f9f8b0e60398e49ac4b050cfddff6ed
     GuidInternal: 
     m_lastTime: -8585210272764305076
+=======
+      guid: 
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: "O\0\0\x0E`9\0I\0K\x05\f\0\u07F6\uD421"
+    ParentPath: Triggers\Default Work Unit
+    guid: "O\0\0\x0E`9\0I\0K\x05\f\0\u07F6\uD1F5"
+    GuidInternal: 
+    m_lastTime: -8585210330928506322
+>>>>>>> Stashed changes
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
