@@ -156,6 +156,7 @@ public class PlayerController : MonoBehaviour
     public void MoveLeft() { if (AtRest && !facingWallLeft) targetGridPos -= transform.right; }
 
     public void MoveRight() { if (AtRest && !facingWallRight) targetGridPos += transform.right; }
+    public void ShowToolbar() { }
 
 
 

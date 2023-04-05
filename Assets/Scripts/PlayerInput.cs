@@ -12,6 +12,7 @@ public class PlayerInput : MonoBehaviour
     public KeyCode right = KeyCode.D;
     public KeyCode turnLeft = KeyCode.Q;
     public KeyCode turnRight = KeyCode.E;
+    public KeyCode showToolBar = KeyCode.R;
 
     PlayerController controller;
 
@@ -29,6 +30,7 @@ controller = GetComponent<PlayerController>();
         if (Input.GetKeyUp(right)) {  controller.MoveRight(); }
         if (Input.GetKeyUp(turnLeft)) { controller.RotateLeft(); }
         if (Input.GetKeyUp(turnRight)) {  controller.RotateRight(); }
+        if (!Input.GetKeyDown(showToolBar)) { }
 
     }
 
