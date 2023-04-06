@@ -29,13 +29,14 @@ public class ToolbarInput : MonoBehaviour
 
     public void ShowToolbar()
     {
-        toolbar.SetActive(true);
+        //toolbar.SetActive(true);
         animator.SetTrigger("Show");
     }
 
     public void HideToolbar()
     {
-        toolbar.SetActive(false);
-        animator.SetTrigger("Hide");
+        //toolbar.SetActive(false);
+         animator.SetTrigger("Hide");
+        
     }
 }
