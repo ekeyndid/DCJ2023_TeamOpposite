@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showToolBar: 9
-  hideToolBar: 9
+  hideToolBar: 102
   toolbar: {fileID: 705385573}
   animator: {fileID: 705385579}
 --- !u!95 &705385579

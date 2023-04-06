@@ -9,7 +9,7 @@ using UnityEngine;
 public class ToolbarInput : MonoBehaviour
 {
     public KeyCode showToolBar = KeyCode.Tab;
-    public KeyCode hideToolBar = KeyCode.Escape;
+    public KeyCode hideToolBar = KeyCode.F;
 
     public GameObject toolbar;
     public Animator animator;
@@ -29,7 +29,7 @@ public class ToolbarInput : MonoBehaviour
 
     public void ShowToolbar()
     {
-        //toolbar.SetActive(true);
+        toolbar.SetActive(true);
         animator.SetTrigger("Show");
     }
 
