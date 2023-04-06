@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float transitionSpeed = 10f;
     public float transitionRotationSpeed = 100f;
 
+
+
     private Vector3 targetGridPos;
     private Vector3 prevTargetGridPos;
     private Vector3 targetRotation;
@@ -156,7 +158,8 @@ public class PlayerController : MonoBehaviour
     public void MoveLeft() { if (AtRest && !facingWallLeft) targetGridPos -= transform.right; }
 
     public void MoveRight() { if (AtRest && !facingWallRight) targetGridPos += transform.right; }
-    public void ShowToolbar() { }
+    
+
 
 
 

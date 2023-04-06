@@ -954,6 +954,8 @@ GameObject:
   - component: {fileID: 705385577}
   - component: {fileID: 705385576}
   - component: {fileID: 705385575}
+  - component: {fileID: 705385578}
+  - component: {fileID: 705385579}
   m_Layer: 5
   m_Name: Toolbar
   m_TagString: Untagged
@@ -1047,6 +1049,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705385573}
   m_CullTransparentMesh: 1
+--- !u!114 &705385578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705385573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e550192183b0b754694a9dc5023f4b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showToolBar: 9
+  hideToolBar: 9
+  toolbar: {fileID: 705385573}
+  animator: {fileID: 705385579}
+--- !u!95 &705385579
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705385573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0761645e7a89aef41bdb2cf9854f48f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!224 &761637861 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4105974118439642465, guid: a22c77d4320371e409942abd832dfa26, type: 3}
@@ -2070,7 +2108,6 @@ MonoBehaviour:
   right: 100
   turnLeft: 113
   turnRight: 101
-  showToolBar: 114
 --- !u!114 &1935047672
 MonoBehaviour:
   m_ObjectHideFlags: 0
