@@ -3,12 +3,54 @@
 	<Events>
 		<WorkUnit Name="UI" ID="{78B08882-D098-49AF-B63E-6E091B951791}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="testSound" ID="{68264587-F2BA-409C-82A4-01DFBAF5D22B}">
+				<Event Name="buttonHover" ID="{6FC16205-5A2E-42F7-BF64-29D9B6EAC60D}">
 					<ChildrenList>
-						<Action Name="" ID="{9AB2646C-23E5-4AB9-BE37-DBE0CEEA4C05}" ShortID="711933118">
+						<Action Name="" ID="{F3373AF2-1EE1-4F54-A41C-1BA550DFA737}" ShortID="694491057">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="DeliverComplete" ID="{DEDF5683-9DB4-44CD-9D9E-07E2B0D9D033}" WorkUnitID="{5475FB0A-9716-4296-ACBA-7DD558006394}"/>
+									<ObjectRef Name="buttonHover" ID="{8FEC76D0-256C-4F10-9314-77E159091117}" WorkUnitID="{5475FB0A-9716-4296-ACBA-7DD558006394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="buttonClick" ID="{88D2E405-807B-4391-963B-AFF0C76CDECD}">
+					<ChildrenList>
+						<Action Name="" ID="{3CC9AFCD-E716-400F-83B0-29E4E3C3D80F}" ShortID="477753195">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="buttonClick" ID="{98A1FF79-2153-4CE6-892A-D74839F848C8}" WorkUnitID="{5475FB0A-9716-4296-ACBA-7DD558006394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="startGame" ID="{2E7BB08A-C72C-45BB-82D8-191E831257FF}">
+					<ChildrenList>
+						<Action Name="" ID="{74CA328E-66D1-4C55-97BC-E99C39E0ABDC}" ShortID="323920732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="startGame" ID="{78B4E602-4BA8-423A-A04E-60A869CDACD3}" WorkUnitID="{5475FB0A-9716-4296-ACBA-7DD558006394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C08217B8-F68E-4ACC-B45A-DF2877755469}" ShortID="28553353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}" WorkUnitID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{742DADC7-42D3-4F5A-86AD-B323675BA8F4}" ShortID="750693088">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerNeutral" ID="{CDDDC824-FE69-4B61-81C3-79BEA369C3C6}" WorkUnitID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

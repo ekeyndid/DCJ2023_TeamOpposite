@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}">
+	<Events>
+		<WorkUnit Name="Skeleton" ID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" OwnerID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="skeletonHurt" ID="{0C5ADC34-36F2-4FBB-890A-A8809F9FDD02}">
+					<ChildrenList>
+						<Action Name="" ID="{DCC26338-4746-4E1E-994F-55AB494CD491}" ShortID="661050422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="skeletonHurt" ID="{F7C3425E-A40D-4C8F-B884-C0A2E154D739}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="skeletonAttack" ID="{D9CE71B1-E1F6-4DCE-BA2D-A5DE41D4B6F6}">
+					<ChildrenList>
+						<Action Name="" ID="{57249A91-848E-4C40-91A4-179E4DFB866D}" ShortID="627773857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="skeletonAttack" ID="{5E0FF464-52AC-4AF0-A758-8C750861969D}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="skeletonDead" ID="{3AD52127-6492-4940-9B65-C0A4617E0983}">
+					<ChildrenList>
+						<Action Name="" ID="{73E9DF93-9024-4A6B-9D96-2E125E41775C}" ShortID="927488583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="skeletonDead" ID="{1CF98A04-E113-4283-97C3-F7B1678DF6D5}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

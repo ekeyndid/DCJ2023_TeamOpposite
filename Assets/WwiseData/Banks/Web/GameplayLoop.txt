@@ -1,6 +1,81 @@
 Event	ID	Name			Wwise Object Path	Notes
-	38624190	testSound			\Default Work Unit\UI\testSound	
+	91495195	corruptionShrine			\Default Work Unit\Objects\corruptionShrine	
+	412471812	playerStep			\Default Work Unit\Player\playerStep	
+	435007902	enterCorruption			\Default Work Unit\Music\enterCorruption	
+	708819110	playerLowHealth			\Default Work Unit\Player\playerLowHealth	
+	1068009922	skeletonDead			\Default Work Unit\NPCs\Skeleton\skeletonDead	
+	1122283870	musicStart			\Default Work Unit\Music\musicStart	
+	1260832867	skeletonHurt			\Default Work Unit\NPCs\Skeleton\skeletonHurt	
+	1330694103	radiantShrine			\Default Work Unit\Objects\radiantShrine	
+	1521187885	startGame			\Default Work Unit\UI\startGame	
+	2216463249	playerSwordSwing			\Default Work Unit\Player\playerSwordSwing	
+	2356585300	playerDead			\Default Work Unit\Player\playerDead	
+	2734591854	playerPickup			\Default Work Unit\Player\playerPickup	
+	3035572085	buttonHover			\Default Work Unit\UI\buttonHover	
+	3224502346	enterRadiance			\Default Work Unit\Music\enterRadiance	
+	4051332235	buttonClick			\Default Work Unit\UI\buttonClick	
+	4153337164	skeletonAttack			\Default Work Unit\NPCs\Skeleton\skeletonAttack	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	footsteps			\Default Work Unit\footstepSwitches\footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	198879084	stepRadiance	footsteps			
+	786608188	stepCorruption	footsteps			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2753803885	MusicRegions			\Default Work Unit\Music\MusicRegions	
+
+State	ID	Name	State Group			Notes
+	274529429	musicCorruption	MusicRegions			
+	748895195	None	MusicRegions			
+	3468756197	musicRadiance	MusicRegions			
+	4082046343	musicMenu	MusicRegions			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	604467236	DeliverComplete	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\DeliverComplete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\DeliverComplete		685244
+	22527003	skeletonHurt	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\skeletonHit_028FBA46.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\Enemies\Skeleton\skeletonHurt\skeletonHurt		7344
+	78186782	swordSwoosh-009	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-009_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-009		12684
+	108104872	Sand Footsteps-009	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-009_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-009		2425
+	140382638	concreteFootsteps-010	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-010_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-010		3768
+	175351805	corruptShrine	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\corruptShrine1_44E2382A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\shrineCorrupt\corruptShrine		182276
+	192738172	swordSwoosh-007	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-007_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-007		12230
+	232321022	swordSwoosh-005	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-005		14495
+	242040780	concreteFootsteps-001	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-001		5672
+	257515413	Sand Footsteps-005	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-005		2868
+	273716181	swordSwoosh-003	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-003		10763
+	286456874	swordSwoosh-004	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-004		10825
+	294217505	Sand Footsteps-007	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-007_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-007		3813
+	300619917	duality atmos v3	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\duality atmos v3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\musicGameSwitch\musicCorruption\duality atmos v3\duality atmos v3		1372288
+	330616139	Sand Footsteps-010	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-010_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-010		3271
+	358217948	concreteFootsteps-004	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-004		5041
+	414036768	pickup-001	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\pickup-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Pickup\pickup\pickup-001		6317
+	442386729	concreteFootsteps-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-008		4138
+	478753652	swordSwoosh-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-008		13592
+	480523624	concreteFootsteps-006	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-006_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-006		3987
+	511295146	swordSwoosh-011	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-011_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-011		12262
+	527918427	Sand Footsteps-004	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-004		2540
+	543438606	swordSwoosh-006	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-006_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-006		14564
+	568276965	concreteFootsteps-002	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-002		3666
+	597474481	playerLowHealth	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Player LowHealth_D213E689.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\playerLowHealth		15798
+	627625006	concreteFootsteps-009	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-009_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-009		5584
+	668125369	Sand Footsteps-003	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-003		3785
+	672957774	pickup-003	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\pickup-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Pickup\pickup\pickup-003		6615
+	705083676	Sand Footsteps-002	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-002		3785
+	710834654	startGame	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\startGame_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\Buttons\startGame		94891
+	750364503	concreteFootsteps-003	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-003_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-003		4120
+	765300565	swordSwoosh-015	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-015_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-015		10690
+	774342695	swordSwoosh-010	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-010_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-010		11018
+	783504052	concreteFootsteps-007	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-007_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-007		4072
+	833445626	concreteFootsteps-011	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-011_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-011		3849
+	838537379	buttonClick	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\buttonClick_0C838AB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\Buttons\buttonClick		2666
+	848577775	pickup-002	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\pickup-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Pickup\pickup\pickup-002		7001
+	877773172	swordSwoosh-013	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-013_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-013		11828
+	884094012	concreteFootsteps-005	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-005		5081
+	884493280	Sand Footsteps-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-008		3123
+	894467448	concreteFootsteps-012	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\concreteFootsteps-012_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-012		3852
+	915029577	buttonHover	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Click_01_51379E30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\Buttons\buttonHover		1306
+	960900169	Sand Footsteps-006	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\Sand Footsteps-006_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-006		3219
+	985213926	radiantShrine	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\radiantShrine_76CDE464.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\shrineRadiant\radiantShrine		185415
+	1011154434	swordSwoosh-012	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-012_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-012		12169
+	1014907645	swordSwoosh-014	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Web\SFX\swordSwoosh-014_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-014		13800
 

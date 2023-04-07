@@ -3,15 +3,106 @@
 	<AudioObjects>
 		<WorkUnit Name="NPCs" ID="{596898F0-B600-492E-B5F6-FAC04FD38756}" OwnerID="{69EA11F2-41A0-4893-ADDA-58D80D3E9EF7}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="NPCs" ID="{717570B0-F152-4204-BC38-5C6E863C9490}" ShortID="634858924">
+				<ActorMixer Name="Enemies" ID="{717570B0-F152-4204-BC38-5C6E863C9490}" ShortID="634858924">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+							<ObjectRef Name="NPCs" ID="{810C158D-E7B9-4E57-8F1B-208FC80F8C71}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Skeleton" ID="{76786D5D-ED7F-424C-A720-3D14D422827D}" ShortID="663318780">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="skeletonHurt" ID="{F7C3425E-A40D-4C8F-B884-C0A2E154D739}" ShortID="221718770">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="skeletonHurt" ID="{FEE59291-F40A-4677-B3BB-D2AAFC1A35B6}" ShortID="782786907">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2619AFFB-C2D4-4BF0-96F9-6D3956913E97}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="skeletonHit" ID="{14193561-357B-43C8-8825-C527226E5704}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0170236949080017"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.308128877834831"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>skeletonHit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="22527003"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="skeletonHit" ID="{14193561-357B-43C8-8825-C527226E5704}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="skeletonAttack" ID="{5E0FF464-52AC-4AF0-A758-8C750861969D}" ShortID="1009539505">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="skeletonDead" ID="{1CF98A04-E113-4283-97C3-F7B1678DF6D5}" ShortID="551906368">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

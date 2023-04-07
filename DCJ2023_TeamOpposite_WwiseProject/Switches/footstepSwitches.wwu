@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F5A0694-652D-46D1-A48B-3F8803D85FA7}" SchemaVersion="110" RootDocumentID="{06C7301E-2A33-478D-920C-1EEC82BE944F}" ParentDocumentID="{06C7301E-2A33-478D-920C-1EEC82BE944F}">
+	<Switches>
+		<WorkUnit Name="footstepSwitches" ID="{8F5A0694-652D-46D1-A48B-3F8803D85FA7}" OwnerID="{06C7301E-2A33-478D-920C-1EEC82BE944F}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="footsteps" ID="{369901D8-2B85-4E47-A5DF-6EE98A61B747}">
+					<ChildrenList>
+						<Switch Name="stepRadiance" ID="{16F8A580-8063-471D-99F7-8196E4E1C37B}"/>
+						<Switch Name="stepCorruption" ID="{4D7D4A92-4D44-4D32-96F2-09E15F707C0C}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

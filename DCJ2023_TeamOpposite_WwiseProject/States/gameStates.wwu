@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}" SchemaVersion="110" RootDocumentID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}" ParentDocumentID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}">
+	<States>
+		<WorkUnit Name="gameStates" ID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}" OwnerID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="playerLife" ID="{C8E1AC4A-AF9F-4154-8B72-D30072C914E1}">
+					<ChildrenList>
+						<State Name="None" ID="{F3CC758C-0769-457A-8547-A0C370CA8641}"/>
+						<State Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
+						<State Name="playerDead" ID="{6AEFDBB0-461E-40FA-8873-86E5064FBBE4}"/>
+						<State Name="playerLowHP" ID="{7742D537-4C08-400C-9C46-2E76C1C96FEA}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="playerCorruptionLevel" ID="{2EE59D92-FE11-47B5-9C6F-F9973B6B3CD2}">
+					<ChildrenList>
+						<State Name="None" ID="{86E3E8E6-DD8A-45A8-B92E-94B2453D74DE}"/>
+						<State Name="playerNeutral" ID="{CDDDC824-FE69-4B61-81C3-79BEA369C3C6}"/>
+						<State Name="playerCorrupt" ID="{83D48169-284B-4AEE-BF78-BF76DFBA2499}"/>
+						<State Name="playerRadiant" ID="{8140A1A0-ADD5-4C11-84D9-BD984884E636}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

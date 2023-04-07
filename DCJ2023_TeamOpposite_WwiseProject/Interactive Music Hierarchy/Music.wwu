@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}" SchemaVersion="110" RootDocumentID="{C5AC2C70-AB39-4F28-BF08-5DBD00C426AB}" ParentDocumentID="{C5AC2C70-AB39-4F28-BF08-5DBD00C426AB}">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}" OwnerID="{C5AC2C70-AB39-4F28-BF08-5DBD00C426AB}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSwitchContainer Name="musicGameSwitch" ID="{586570AD-61E0-4D82-BE59-3DD6D54C282C}" ShortID="544275665">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{1830F3E1-19DB-4AD1-9433-5337046A620C}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="musicCorruption" ID="{A5F451A0-1E95-4D90-9D37-0388C1DC5DA7}" ShortID="860706983">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="duality atmos v3" ID="{9DA7C4DA-E5AA-4F42-866E-6560265B0CE1}" ShortID="1042970940">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="85964.5047314393"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="duality atmos v3" ID="{53847579-DD55-4521-94F5-2E96CC00A653}" ShortID="242739578">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="duality atmos v3" ID="{44363411-912F-4B85-865C-CED98AC3CDAD}">
+													<Language>SFX</Language>
+													<AudioFile>duality atmos v3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="300619917"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{26F33F69-0423-4586-94DE-3187699BA244}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7D589639-7597-4C02-9A4F-0B06E2C37B65}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="duality atmos v3" ID="{9E517A5A-09FA-4C89-B6FA-27233DC20F41}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="85312.1995464853"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="duality atmos v3" ID="{44363411-912F-4B85-865C-CED98AC3CDAD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{29666ABB-FBAC-499A-BD05-AB6598AB4717}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="931.864549934301"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{51CB7927-6F78-4E4C-9F39-4450835E7AE1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="83168.9110816364"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{13F68535-E4C2-4BE8-AF05-1EE7995B0682}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{222849EF-54F4-403D-A5F3-8D658136836F}">
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{0E37C10D-95E1-45AB-B514-5916D24E9494}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="duality atmos v3" ID="{9DA7C4DA-E5AA-4F42-866E-6560265B0CE1}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="duality atmos v3" ID="{9DA7C4DA-E5AA-4F42-866E-6560265B0CE1}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{DB4E2DB9-E85E-45DE-A5BE-134A1A45626E}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{A5835F10-973C-4980-A055-B541E794D9BE}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{50F19643-2F62-439A-82BB-060269539D2A}" ShortID="219036128">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E104A69F-F096-456D-AB34-1F30C85D162C}" ShortID="1008434457">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="duality atmos v3" ID="{9DA7C4DA-E5AA-4F42-866E-6560265B0CE1}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="musicRadiance" ID="{ABB72F89-B6CB-48F8-A7CB-FFBDF3124D32}" ShortID="775652599">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{791A482E-B673-4200-A3C7-69C07C457B42}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FEEE0CE0-A128-452A-8F94-70281EABDA3A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{4F00657A-F0D6-46E8-9D95-B24A3C1BC686}" ShortID="593976808"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="musicMenu" ID="{9BA6E3B9-F6DB-4CA9-8CC8-8C7959ACF12C}" ShortID="703747143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3C611907-974F-4EF8-B07D-7483B59D4EE1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{8B9E5D34-DA47-469C-A011-B28A6E81930B}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{266ACF7B-9A2E-4C78-985C-2308A0FDB328}" ShortID="496339406"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{354FF2C0-7F15-4FB7-B856-1A6058DBE448}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{922F3ED9-AE2A-44B9-AE51-4E5E99AFC7F2}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="MusicRegions" ID="{E81FDC53-0F04-435A-9246-060FA62F62A2}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicCorruption" ID="{A5F451A0-1E95-4D90-9D37-0388C1DC5DA7}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="musicMenu" ID="{421C0FE3-C52B-4836-98AF-BE152503307F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicCorruption" ID="{A5F451A0-1E95-4D90-9D37-0388C1DC5DA7}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="musicRadiance" ID="{E9DECE0B-59C5-4564-88BD-510AC9C23F31}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="musicCorruption" ID="{A5F451A0-1E95-4D90-9D37-0388C1DC5DA7}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

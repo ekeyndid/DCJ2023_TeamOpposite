@@ -4,14 +4,125 @@
 		<WorkUnit Name="Objects" ID="{35F9E31F-49BB-4656-AE75-3FD4CBB62BA4}" OwnerID="{69EA11F2-41A0-4893-ADDA-58D80D3E9EF7}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Objects" ID="{3050563E-77CA-4B17-86A4-75B37A0CAF9A}" ShortID="238431645">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+							<ObjectRef Name="Objects" ID="{AA520851-B976-4DBD-AB41-605048EDE1D7}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="shrineRadiant" ID="{E7047F6B-DB66-4756-9D71-72803FC63470}" ShortID="931213181">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="shrineAttenuation" ID="{3A3D820C-19EF-43FA-877F-6DC481D7AA8B}" WorkUnitID="{3E019808-4EB0-422F-8BB9-BD5A1F79AC15}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="radiantShrine" ID="{DE75DF50-2169-4060-AEEC-D1F2499D7B9F}" ShortID="428721224">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="radiantShrine" ID="{F5D3D458-5001-4050-AA2B-F02A6CA08CDB}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="300"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.133504492939666"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.191912708600771"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.36136071887035"/>
+												<Property Name="LoopEnd" Type="Real64" Value="11.6065468549422"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="12.4242618741977"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>radiantShrine.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985213926"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="radiantShrine" ID="{F5D3D458-5001-4050-AA2B-F02A6CA08CDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="shrineCorrupt" ID="{C76E6C96-A2B9-4529-BEE0-D86F3462B7C4}" ShortID="681199334">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="shrineAttenuation" ID="{3A3D820C-19EF-43FA-877F-6DC481D7AA8B}" WorkUnitID="{3E019808-4EB0-422F-8BB9-BD5A1F79AC15}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="corruptShrine" ID="{EBD5874B-CB97-4B00-A7F8-7421432F33EA}" ShortID="355895688">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="corruptShrine1" ID="{8AA108D2-7670-4FA3-8A90-C1805ED40EFB}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="150"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.133504492939666"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.2002567394095"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.166880616174583"/>
+												<Property Name="LoopEnd" Type="Real64" Value="11.8151476251605"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="12.0070603337612"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>corruptShrine1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175351805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="corruptShrine1" ID="{8AA108D2-7670-4FA3-8A90-C1805ED40EFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

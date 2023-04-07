@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0A383692-099D-4436-BFB8-B5D219AD2CAE}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}">
 	<Events>
-		<WorkUnit Name="Objects" ID="{0A383692-099D-4436-BFB8-B5D219AD2CAE}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested"/>
+		<WorkUnit Name="Objects" ID="{0A383692-099D-4436-BFB8-B5D219AD2CAE}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="radiantShrine" ID="{36A31C11-75A0-4820-8A7C-80716BCA34CA}">
+					<ChildrenList>
+						<Action Name="" ID="{B6F586AF-60BA-4118-8782-D99E52DEDE00}" ShortID="326306664">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="radiantShrine" ID="{DE75DF50-2169-4060-AEEC-D1F2499D7B9F}" WorkUnitID="{35F9E31F-49BB-4656-AE75-3FD4CBB62BA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="corruptionShrine" ID="{D7051B37-417D-451B-B93B-82B6CA0BA6F1}">
+					<ChildrenList>
+						<Action Name="" ID="{919DD97A-1F8A-407E-851A-D1AB79BD5291}" ShortID="98358047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="corruptShrine" ID="{EBD5874B-CB97-4B00-A7F8-7421432F33EA}" WorkUnitID="{35F9E31F-49BB-4656-AE75-3FD4CBB62BA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

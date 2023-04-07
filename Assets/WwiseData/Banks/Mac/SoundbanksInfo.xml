@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{92EB2FBE-1D04-271B-EA5C-0B12F6FBF46E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{191BAA99-092C-CC89-5E92-8AF09EE489E0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -30,24 +30,412 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="playerLife">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1849584180" Name="playerLowHP"/>
+						<State Id="2356585300" Name="playerDead"/>
+						<State Id="2557321869" Name="playerAlive"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2753803885" Name="MusicRegions">
+					<States>
+						<State Id="274529429" Name="musicCorruption"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="3468756197" Name="musicRadiance"/>
+						<State Id="4082046343" Name="musicMenu"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4228978593" Name="playerCorruptionLevel">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1149610459" Name="playerRadiant"/>
+						<State Id="2428916733" Name="playerCorrupt"/>
+						<State Id="2966196035" Name="playerNeutral"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="footsteps">
+					<Switches>
+						<Switch Id="198879084" Name="stepRadiance"/>
+						<Switch Id="786608188" Name="stepCorruption"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{7271B635-B975-A709-65B2-619345E3901A}">
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{52139BEB-5D7A-A578-9F94-31D4227410B7}">
 			<ShortName>GameplayLoop</ShortName>
 			<Path>GameplayLoop.bnk</Path>
 			<Media>
-				<File Id="604467236" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>DeliverComplete.wav</ShortName>
-					<CachePath>SFX/DeliverComplete_10C4C929.wem</CachePath>
+				<File Id="22527003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>skeletonHit.wav</ShortName>
+					<CachePath>SFX/skeletonHit_028FBA46.wem</CachePath>
+				</File>
+				<File Id="78186782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-009.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="108104872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-009.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="140382638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-010.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-010_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="175351805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>corruptShrine1.wav</ShortName>
+					<CachePath>SFX/corruptShrine1_44E2382A.wem</CachePath>
+				</File>
+				<File Id="192738172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-007.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="232321022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-005.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="242040780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-001.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="257515413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-005.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="273716181" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-003.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="286456874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-004.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="294217505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-007.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="300619917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>duality atmos v3.wav</ShortName>
+					<CachePath>SFX/duality atmos v3_9EDFC787.wem</CachePath>
+				</File>
+				<File Id="330616139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-010.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-010_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="358217948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-004.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="414036768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pickup-001.wav</ShortName>
+					<CachePath>SFX/pickup-001_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="442386729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-008.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="478753652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-008.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="480523624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-006.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="511295146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-011.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-011_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="527918427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-004.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-004_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="543438606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-006.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="568276965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-002.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="597474481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player LowHealth.wav</ShortName>
+					<CachePath>SFX/Player LowHealth_D213E689.wem</CachePath>
+				</File>
+				<File Id="627625006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-009.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-009_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="668125369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-003.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="672957774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pickup-003.wav</ShortName>
+					<CachePath>SFX/pickup-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="705083676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-002.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="710834654" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>startGame.wav</ShortName>
+					<CachePath>SFX/startGame_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="750364503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-003.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-003_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="765300565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-015.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-015_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="774342695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-010.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-010_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="783504052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-007.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-007_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="833445626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-011.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-011_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="838537379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>buttonClick.wav</ShortName>
+					<CachePath>SFX/buttonClick_0C838AB9.wem</CachePath>
+				</File>
+				<File Id="848577775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pickup-002.wav</ShortName>
+					<CachePath>SFX/pickup-002_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="877773172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-013.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-013_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="884094012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-005.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-005_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="884493280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-008.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="894467448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>concreteFootsteps-012.wav</ShortName>
+					<CachePath>SFX/concreteFootsteps-012_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="915029577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Click_01.wav</ShortName>
+					<CachePath>SFX/Click_01_51379E30.wem</CachePath>
+				</File>
+				<File Id="960900169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand Footsteps-006.wav</ShortName>
+					<CachePath>SFX/Sand Footsteps-006_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="985213926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>radiantShrine.wav</ShortName>
+					<CachePath>SFX/radiantShrine_76CDE464.wem</CachePath>
+				</File>
+				<File Id="1011154434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-012.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-012_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="1014907645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>swordSwoosh-014.wav</ShortName>
+					<CachePath>SFX/swordSwoosh-014_3F75BDB9.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="38624190" Name="testSound" DurationType="OneShot" DurationMin="3.568479" DurationMax="3.568479">
+				<Event Id="4051332235" Name="buttonClick" DurationType="OneShot" DurationMin="0.111106835" DurationMax="0.111106835">
 					<MediaRefs>
-						<MediaRef Id="604467236"/>
+						<MediaRef Id="838537379"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3035572085" Name="buttonHover" DurationType="OneShot" DurationMin="0.02856345" DurationMax="0.02856345">
+					<MediaRefs>
+						<MediaRef Id="915029577"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="91495195" Name="corruptionShrine" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="175351805"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="435007902" Name="enterCorruption" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2753803885" Id="274529429" Name="musicCorruption"/>
+					</ActionSetState>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2385628198" Id="786608188" Name="stepCorruption"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3224502346" Name="enterRadiance" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2753803885" Id="3468756197" Name="musicRadiance"/>
+					</ActionSetState>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2385628198" Id="198879084" Name="stepRadiance"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1122283870" Name="musicStart" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2753803885" Id="274529429"/>
+							<MediaRefs>
+								<MediaRef Id="300619917"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2753803885" Id="4082046343"/>
+							<MediaRefs>
+								<MediaRef Id="300619917"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2753803885" Id="3468756197"/>
+							<MediaRefs>
+								<MediaRef Id="300619917"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2753803885" Id="4082046343" Name="musicMenu"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2356585300" Name="playerDead" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="2356585300" Name="playerDead"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="708819110" Name="playerLowHealth" DurationType="OneShot" DurationMin="1.6275343" DurationMax="1.7243125">
+					<MediaRefs>
+						<MediaRef Id="597474481"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="1849584180" Name="playerLowHP"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2734591854" Name="playerPickup" DurationType="OneShot" DurationMin="1.1237303" DurationMax="1.1905508">
+					<MediaRefs>
+						<MediaRef Id="414036768"/>
+						<MediaRef Id="672957774"/>
+						<MediaRef Id="848577775"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="412471812" Name="playerStep" DurationType="OneShot" DurationMin="0.22266297" DurationMax="0.56063884">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="198879084"/>
+							<MediaRefs>
+								<MediaRef Id="108104872"/>
+								<MediaRef Id="257515413"/>
+								<MediaRef Id="294217505"/>
+								<MediaRef Id="330616139"/>
+								<MediaRef Id="527918427"/>
+								<MediaRef Id="668125369"/>
+								<MediaRef Id="705083676"/>
+								<MediaRef Id="884493280"/>
+								<MediaRef Id="960900169"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="786608188" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="140382638"/>
+								<MediaRef Id="242040780"/>
+								<MediaRef Id="358217948"/>
+								<MediaRef Id="442386729"/>
+								<MediaRef Id="480523624"/>
+								<MediaRef Id="568276965"/>
+								<MediaRef Id="627625006"/>
+								<MediaRef Id="750364503"/>
+								<MediaRef Id="783504052"/>
+								<MediaRef Id="833445626"/>
+								<MediaRef Id="884094012"/>
+								<MediaRef Id="894467448"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2216463249" Name="playerSwordSwing" DurationType="OneShot" DurationMin="0.87308335" DurationMax="1.2351627">
+					<MediaRefs>
+						<MediaRef Id="78186782"/>
+						<MediaRef Id="192738172"/>
+						<MediaRef Id="232321022"/>
+						<MediaRef Id="273716181"/>
+						<MediaRef Id="286456874"/>
+						<MediaRef Id="478753652"/>
+						<MediaRef Id="511295146"/>
+						<MediaRef Id="543438606"/>
+						<MediaRef Id="765300565"/>
+						<MediaRef Id="774342695"/>
+						<MediaRef Id="877773172"/>
+						<MediaRef Id="1011154434"/>
+						<MediaRef Id="1014907645"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1330694103" Name="radiantShrine" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="985213926"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4153337164" Name="skeletonAttack" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1068009922" Name="skeletonDead" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1260832867" Name="skeletonHurt" DurationType="OneShot" DurationMin="0.2825554" DurationMax="0.33601692">
+					<MediaRefs>
+						<MediaRef Id="22527003"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1521187885" Name="startGame" DurationType="OneShot" DurationMin="6.968021" DurationMax="6.968021">
+					<MediaRefs>
+						<MediaRef Id="710834654"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="2557321869" Name="playerAlive"/>
+						<ActionSetStateEntry GroupId="4228978593" Id="2966196035" Name="playerNeutral"/>
+					</ActionSetState>
+				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="playerLife">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1849584180" Name="playerLowHP"/>
+						<State Id="2356585300" Name="playerDead"/>
+						<State Id="2557321869" Name="playerAlive"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2753803885" Name="MusicRegions">
+					<States>
+						<State Id="274529429" Name="musicCorruption"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="3468756197" Name="musicRadiance"/>
+						<State Id="4082046343" Name="musicMenu"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4228978593" Name="playerCorruptionLevel">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1149610459" Name="playerRadiant"/>
+						<State Id="2428916733" Name="playerCorrupt"/>
+						<State Id="2966196035" Name="playerNeutral"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="footsteps">
+					<Switches>
+						<Switch Id="198879084" Name="stepRadiance"/>
+						<Switch Id="786608188" Name="stepCorruption"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{732A511F-EE96-E571-EC7C-9C1044F9F088}</FileHash>
+	<FileHash>{96552EFF-825E-770B-3228-3203B4A86C5D}</FileHash>
 </SoundBanksInfo>

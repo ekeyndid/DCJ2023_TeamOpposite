@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}">
 	<Events>
-		<WorkUnit Name="NPCs" ID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested"/>
+		<WorkUnit Name="NPCs" ID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Skeleton" ID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

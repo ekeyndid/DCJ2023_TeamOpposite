@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{88A8B972-78CA-4F57-9390-F6C0C2A9E8CE}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{88A8B972-78CA-4F57-9390-F6C0C2A9E8CE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{88A8B972-78CA-4F57-9390-F6C0C2A9E8CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Testing" ID="{D02D6743-04EE-4037-ABD4-79AB2BDE56C0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="musicStart" ID="{EBD593BE-D4CE-4D3F-ACE3-A2E85D46D3C0}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="playerStep" ID="{DCA37E4B-0DD3-4D12-8036-142F94D09D56}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="startGame" ID="{2E7BB08A-C72C-45BB-82D8-191E831257FF}" WorkUnitID="{78B08882-D098-49AF-B63E-6E091B951791}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
+						<CurrentStateRef Name="musicMenu" ID="{421C0FE3-C52B-4836-98AF-BE152503307F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="stepCorruption" ID="{4D7D4A92-4D44-4D32-96F2-09E15F707C0C}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

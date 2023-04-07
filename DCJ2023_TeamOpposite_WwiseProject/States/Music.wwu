@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BBEE9E6D-D243-4913-9FFE-9007BA638A70}" SchemaVersion="110" RootDocumentID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}" ParentDocumentID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}">
+	<States>
+		<WorkUnit Name="Music" ID="{BBEE9E6D-D243-4913-9FFE-9007BA638A70}" OwnerID="{EB46A9A4-6ABD-4716-AA98-AE8DCD48CE08}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="MusicRegions" ID="{E81FDC53-0F04-435A-9246-060FA62F62A2}">
+					<ChildrenList>
+						<State Name="None" ID="{22B0368A-621E-4012-BBA6-0AE560F328E8}"/>
+						<State Name="musicMenu" ID="{421C0FE3-C52B-4836-98AF-BE152503307F}"/>
+						<State Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}"/>
+						<State Name="musicRadiance" ID="{E9DECE0B-59C5-4564-88BD-510AC9C23F31}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

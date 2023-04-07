@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}">
 	<Events>
-		<WorkUnit Name="Music" ID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested"/>
+		<WorkUnit Name="Music" ID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="musicStart" ID="{EBD593BE-D4CE-4D3F-ACE3-A2E85D46D3C0}">
+					<ChildrenList>
+						<Action Name="" ID="{21CEBDF9-3D8C-4655-9A0C-2EE650E5B605}" ShortID="164765959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicGameSwitch" ID="{586570AD-61E0-4D82-BE59-3DD6D54C282C}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E671D6A5-3D8F-4694-A502-32A9F7BCEB7B}" ShortID="865442685">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicMenu" ID="{421C0FE3-C52B-4836-98AF-BE152503307F}" WorkUnitID="{BBEE9E6D-D243-4913-9FFE-9007BA638A70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B16C372-DF7E-445B-9609-0DFCAFE4D2EB}" ShortID="995279189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicGameSwitch" ID="{586570AD-61E0-4D82-BE59-3DD6D54C282C}" WorkUnitID="{E51D6C75-8CCD-4DC1-A760-B6272491D56F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enterCorruption" ID="{EFC7A650-A9A6-44A6-A380-FA53C5AF3EBB}">
+					<ChildrenList>
+						<Action Name="" ID="{D236E3AE-D8A5-4C0D-A44E-F5D50F277322}" ShortID="437389382">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}" WorkUnitID="{BBEE9E6D-D243-4913-9FFE-9007BA638A70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{16B08541-F8E9-4BE5-A856-75130985605B}" ShortID="134566793">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stepCorruption" ID="{4D7D4A92-4D44-4D32-96F2-09E15F707C0C}" WorkUnitID="{8F5A0694-652D-46D1-A48B-3F8803D85FA7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enterRadiance" ID="{2286D687-DD1D-4C38-BBF8-9B3D6C844837}">
+					<ChildrenList>
+						<Action Name="" ID="{999EF374-0DF4-424C-B803-CFCB64474664}" ShortID="89460540">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musicRadiance" ID="{E9DECE0B-59C5-4564-88BD-510AC9C23F31}" WorkUnitID="{BBEE9E6D-D243-4913-9FFE-9007BA638A70}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0CDF8A28-ACCD-4E2B-AA3A-810D614341FA}" ShortID="460317269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stepRadiance" ID="{16F8A580-8063-471D-99F7-8196E4E1C37B}" WorkUnitID="{8F5A0694-652D-46D1-A48B-3F8803D85FA7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

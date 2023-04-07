@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}">
 	<Events>
-		<WorkUnit Name="Player" ID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested"/>
+		<WorkUnit Name="Player" ID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="playerPickup" ID="{60EABE81-7404-41C7-91F8-AEA45F73E841}">
+					<ChildrenList>
+						<Action Name="" ID="{3E3B430B-8BE0-446B-BC22-217819475AA7}" ShortID="742682467">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pickup" ID="{43F10FCC-600B-45DB-B195-11DC15EBFC70}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerLowHealth" ID="{07FCFA53-E2CF-4670-A15C-136B9FDFDF50}">
+					<ChildrenList>
+						<Action Name="" ID="{DB310AA0-D3F4-449E-9389-483CAB78E22A}" ShortID="1043243050">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerLowHP" ID="{7742D537-4C08-400C-9C46-2E76C1C96FEA}" WorkUnitID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE2D3E70-AC50-49EE-9C00-18D6E4CE023D}" ShortID="628487513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerLowHealth" ID="{7A5D97B2-499D-4928-AD3B-0E737B45BB4A}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerSwordSwing" ID="{7134582D-25D0-47D3-AF0D-94F7EF907305}">
+					<ChildrenList>
+						<Action Name="" ID="{59EE85F4-7206-47CA-8389-614BF090776B}" ShortID="639898092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="basicSword" ID="{A0961CB5-9312-45C5-9E8A-FD867C69B333}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerStep" ID="{DCA37E4B-0DD3-4D12-8036-142F94D09D56}">
+					<ChildrenList>
+						<Action Name="" ID="{3FE0152B-D78B-4347-9475-772F7AC11D2F}" ShortID="936545049">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footstepSwitch" ID="{5DA93F1F-220A-4E2A-AC0C-671FFCF6A59F}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerDead" ID="{4706BCC3-AB1E-48EA-98E2-2BDE555EF0F9}">
+					<ChildrenList>
+						<Action Name="" ID="{1789138A-0E7A-4FD5-8FB4-6EC54AAF6A08}" ShortID="947561488">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerDead" ID="{6AEFDBB0-461E-40FA-8873-86E5064FBBE4}" WorkUnitID="{FD387FAD-B7B5-4C9A-A62F-5F19920F9445}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A708BB79-247E-4AB8-92A6-2507440BEB7C}" ShortID="136621956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerDead" ID="{4119EA6C-3591-4461-A69B-3AC7E500AC7C}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,3 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	playerLife			\Default Work Unit\gameStates\playerLife	
+	2753803885	MusicRegions			\Default Work Unit\Music\MusicRegions	
+	4228978593	playerCorruptionLevel			\Default Work Unit\gameStates\playerCorruptionLevel	
+
+State	ID	Name	State Group			Notes
+	748895195	None	playerLife			
+	1849584180	playerLowHP	playerLife			
+	2356585300	playerDead	playerLife			
+	2557321869	playerAlive	playerLife			
+	274529429	musicCorruption	MusicRegions			
+	748895195	None	MusicRegions			
+	3468756197	musicRadiance	MusicRegions			
+	4082046343	musicMenu	MusicRegions			
+	748895195	None	playerCorruptionLevel			
+	1149610459	playerRadiant	playerCorruptionLevel			
+	2428916733	playerCorrupt	playerCorruptionLevel			
+	2966196035	playerNeutral	playerCorruptionLevel			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\World\Ambient	
 	833916109	NPCs			\Default Work Unit\Master Audio Bus\World\NPCs	
