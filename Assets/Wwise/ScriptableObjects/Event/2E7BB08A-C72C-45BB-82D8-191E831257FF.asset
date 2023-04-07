@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4187905d78f9d4742b6af36d4dd4bddd, type: 3}
+  m_Name: 2E7BB08A-C72C-45BB-82D8-191E831257FF
+  m_EditorClassIdentifier: 
+  objectName: startGame
+  id: 1521187885
+  guid: 2E7BB08A-C72C-45BB-82D8-191E831257FF
