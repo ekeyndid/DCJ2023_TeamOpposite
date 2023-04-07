@@ -21,7 +21,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
-						<CurrentStateRef Name="musicMenu" ID="{421C0FE3-C52B-4836-98AF-BE152503307F}"/>
+						<CurrentStateRef Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}"/>
+						<CurrentStateRef Name="playerNeutral" ID="{CDDDC824-FE69-4B61-81C3-79BEA369C3C6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="stepCorruption" ID="{4D7D4A92-4D44-4D32-96F2-09E15F707C0C}"/>
