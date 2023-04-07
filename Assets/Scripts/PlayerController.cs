@@ -152,12 +152,12 @@ public class PlayerController : MonoBehaviour
 
     public void RotateLeft() { if (AtRest) targetRotation -= Vector3.up * 90f; }
     public void RotateRight() { if (AtRest) targetRotation += Vector3.up * 90f; }
-    
-    public void MoveForward() { if (AtRest && !facingWallFront) targetGridPos += transform.forward; }
-    public void MoveBackward() { if (AtRest && !facingWallBack) targetGridPos -= transform.forward; }
-    public void MoveLeft() { if (AtRest && !facingWallLeft) targetGridPos -= transform.right; }
 
-    public void MoveRight() { if (AtRest && !facingWallRight) targetGridPos += transform.right; }
+    public void MoveForward() { if (AtRest && !facingWallFront) { targetGridPos += transform.forward; AkSoundEngine.PostEvent("playerStep", this.gameObject); } }
+    public void MoveBackward() { if (AtRest && !facingWallBack) { targetGridPos -= transform.forward; AkSoundEngine.PostEvent("playerStep", this.gameObject); } }
+    public void MoveLeft() { if (AtRest && !facingWallLeft) { targetGridPos -= transform.right; AkSoundEngine.PostEvent("playerStep", this.gameObject); } }
+
+    public void MoveRight() { if (AtRest && !facingWallRight) { targetGridPos += transform.right; AkSoundEngine.PostEvent("playerStep", this.gameObject); } }
     
 
 
