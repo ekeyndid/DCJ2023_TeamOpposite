@@ -5,19 +5,19 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     public GameObject Player;
-    public GameObject WarpTo;
-    public GameObject StartPortal;
+    public GameObject DarkPortal;
+    public GameObject HolyPortal;
 
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("DarkPortal"))
         {
-            Player.transform.position = WarpTo.transform.position;
+            Player.transform.position = DarkPortal.transform.position;
         }
 
         if (collision.gameObject.CompareTag("HolyPortal"))
         {
-            Player.transform.position = WarpTo.transform.position;
+            Player.transform.position = HolyPortal.transform.position;
         }
     }
 }
