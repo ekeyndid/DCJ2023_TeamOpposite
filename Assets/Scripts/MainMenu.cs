@@ -15,7 +15,8 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Quit!");
-         Application.Quit();
+        AkSoundEngine.PostEvent("buttonClick", this.gameObject);
+        Application.Quit();
     }
 
 }
