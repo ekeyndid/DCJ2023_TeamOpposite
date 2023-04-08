@@ -45,7 +45,7 @@ public class DungeonGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<GameObject>();
+       
         MazeGenerator();
     }
 
