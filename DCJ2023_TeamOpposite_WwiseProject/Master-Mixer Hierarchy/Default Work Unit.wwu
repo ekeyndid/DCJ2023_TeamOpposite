@@ -64,7 +64,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -109,7 +109,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -150,7 +150,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -191,7 +191,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -232,7 +232,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
@@ -273,7 +273,7 @@
 														</PropertyList>
 														<ReferenceList>
 															<Reference Name="ControlInput">
-																<ObjectRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
+																<ObjectRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}" WorkUnitID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}"/>
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>

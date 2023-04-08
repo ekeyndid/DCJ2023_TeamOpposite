@@ -17,6 +17,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="Skeleton" ID="{76786D5D-ED7F-424C-A720-3D14D422827D}" ShortID="663318780">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D49ABE5D-1BED-4D9D-9832-66933A07B981}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
@@ -103,6 +118,21 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="evilAngel" ID="{4324AA9E-BDF1-46D0-8CE1-618EE8F60131}" ShortID="494273102">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{14106593-B296-4CF8-A4DD-95ACA805DF70}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
@@ -121,6 +151,35 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="angelAttack" ID="{F76440BD-7EF0-4159-A291-AFB682D79A66}" ShortID="1063915392">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="angelAttack" ID="{7644C5D5-32C8-4CBE-BCE0-88F50BF4A448}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0540264762516046"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.981480985237485"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>angelAttack.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="915005984"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="angelAttack" ID="{7644C5D5-32C8-4CBE-BCE0-88F50BF4A448}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="angelDead" ID="{CF3BA2C2-68E6-428A-8083-AA7EDC426C67}" ShortID="108522361">
 									<ReferenceList>
@@ -131,6 +190,35 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="angelDead" ID="{5F067F4D-D723-4908-914B-0123A28FC383}" ShortID="371286813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="angelDead" ID="{F1C325BC-6CC0-4B4D-8C85-E27086588A1F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0937291399229783"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.21020860077022"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>angelDead.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029225269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="angelDead" ID="{F1C325BC-6CC0-4B4D-8C85-E27086588A1F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="angelHurt" ID="{2C64DFF0-B625-4954-8737-2D91F249EF32}" ShortID="566344827">
 									<ReferenceList>
@@ -141,10 +229,54 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="angelHurt" ID="{89A0CB38-B03D-4B28-8FDE-D8DE73E4364D}" ShortID="730919354">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="angelHurt" ID="{D275E0B7-18C8-42D6-9F66-8678090AF250}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.865616174582798"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>angelHurt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359230073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="angelHurt" ID="{D275E0B7-18C8-42D6-9F66-8678090AF250}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="fleshHorror" ID="{765960A7-6005-4176-9D6A-D3B4061E6D44}" ShortID="395758687">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{439A6477-A2AD-46DA-BDB3-4D6D79A75307}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>

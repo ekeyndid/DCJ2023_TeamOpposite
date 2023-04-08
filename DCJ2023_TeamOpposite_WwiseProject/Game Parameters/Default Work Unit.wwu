@@ -3,7 +3,7 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{B0B78F2A-35C4-4A1F-B516-63F21A14B36E}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}">
+				<GameParameter Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="90"/>
 					</PropertyList>

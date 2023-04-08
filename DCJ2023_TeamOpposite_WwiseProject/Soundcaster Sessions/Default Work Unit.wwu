@@ -24,13 +24,13 @@
 							<Value>90</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}"/>
+							<GameParameterRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}"/>
 							<Value>90</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
-						<CurrentStateRef Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}"/>
+						<CurrentStateRef Name="musicRadiance" ID="{E9DECE0B-59C5-4564-88BD-510AC9C23F31}"/>
 						<CurrentStateRef Name="playerNeutral" ID="{CDDDC824-FE69-4B61-81C3-79BEA369C3C6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
