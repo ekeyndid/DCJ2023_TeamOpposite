@@ -41,7 +41,7 @@ public class DungeonGenerator : MonoBehaviour
                 if (currentCell.visited)
                 {
                     int randomRoom = Random.Range(0, rooms.Length);
-                    var newRoom = Instantiate(room[randomRoom], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviour>();
+                    var newRoom = Instantiate(rooms[randomRoom], new Vector3(i * offset.x, 0, -j * offset.y), Quaternion.identity, transform).GetComponent<RoomBehaviour>();
                     newRoom.UpdateRoom(currentCell.status);
 
                     newRoom.name += " " + i + "-" + j;
