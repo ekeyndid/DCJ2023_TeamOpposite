@@ -18,7 +18,16 @@
 							<Position X="2" Y="4"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="musicVolume" ID="{6881579E-D9B6-44FF-A6EA-CDC1D634AE9E}"/>
+							<Value>90</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="sfxVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}"/>
+							<Value>90</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
 						<CurrentStateRef Name="musicCorruption" ID="{5209B370-5A08-4B04-89BE-C0B46192E964}"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}">
+	<Events>
+		<WorkUnit Name="evilAngel" ID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" OwnerID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="angelAttack" ID="{B62ECDC9-B1D9-42E4-9E82-1210CFE9CB0F}">
+					<ChildrenList>
+						<Action Name="" ID="{78431154-5C31-4716-8F5F-41FC671B4447}" ShortID="741360659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="angelAttack" ID="{8E6BAC8E-861B-430C-8211-B7DCC3DAF994}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="angelHurt" ID="{49FF2363-7143-4A3B-8004-2E0EF8789E3E}">
+					<ChildrenList>
+						<Action Name="" ID="{3F1055D3-49F2-44EE-9C86-4659FC6D8CEB}" ShortID="488302754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="angelHurt" ID="{2C64DFF0-B625-4954-8737-2D91F249EF32}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="angelDead" ID="{07F2818B-D2B8-4F02-8FA3-590A53BA3067}">
+					<ChildrenList>
+						<Action Name="" ID="{08F88DA2-1B8C-445A-B014-024BDF44A57C}" ShortID="36149931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="angelDead" ID="{CF3BA2C2-68E6-428A-8083-AA7EDC426C67}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

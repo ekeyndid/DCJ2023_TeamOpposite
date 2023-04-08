@@ -4,6 +4,8 @@
 		<WorkUnit Name="NPCs" ID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" OwnerID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="Skeleton" ID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" PersistMode="Reference"/>
+				<WorkUnit Name="evilAngel" ID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" PersistMode="Reference"/>
+				<WorkUnit Name="fleshHorror" ID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

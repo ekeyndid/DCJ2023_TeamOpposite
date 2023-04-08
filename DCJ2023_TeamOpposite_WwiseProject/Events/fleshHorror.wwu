@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" SchemaVersion="110" RootDocumentID="{EA581A38-ECFB-4449-ADB7-78791E244C9B}" ParentDocumentID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}">
+	<Events>
+		<WorkUnit Name="fleshHorror" ID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" OwnerID="{A0D15D8F-346E-4C1D-B61E-7A2B4AC29531}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="horrorAttack" ID="{7C10C324-DDAE-49E0-BECA-C640F23C1A2A}">
+					<ChildrenList>
+						<Action Name="" ID="{86587182-9524-40A9-BA5D-A587BD5F34E6}" ShortID="299316725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="horrorAttack" ID="{00FF2B50-43D9-4C7C-82C1-9EE847798382}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="horrorDead" ID="{9BB70A28-0400-426E-9F4C-0FD185338C85}">
+					<ChildrenList>
+						<Action Name="" ID="{5398FC8A-9ACA-464B-933B-3FF4DCAC7C1E}" ShortID="1028326629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="horrorDead" ID="{BAD4BBD4-BCED-4390-84D7-7E06C0A18EAD}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="horrorHurt" ID="{DDDD4125-EA1E-417E-8431-5B69079F4F57}">
+					<ChildrenList>
+						<Action Name="" ID="{428197E7-4E6C-44AA-8BC4-B942BE50C749}" ShortID="818740289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="horrorHurt" ID="{CED7AA1F-D367-442E-A5F3-BAFC179FEC8F}" WorkUnitID="{596898F0-B600-492E-B5F6-FAC04FD38756}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

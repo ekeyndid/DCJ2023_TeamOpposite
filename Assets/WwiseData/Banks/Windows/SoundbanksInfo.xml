@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6EA1794E-4FBA-6E18-B016-557C60AA7276}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1B6725DD-F557-32E0-42DC-AF0E0DF49B09}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -30,6 +30,10 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="sfxVolume"/>
+				<GameParameter Id="2346531308" Name="musicVolume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="444815956" Name="playerLife">
 					<States>
@@ -65,7 +69,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{FD01CA5E-A9D0-176E-3377-8D6A5F98BAA7}">
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{DE605ACB-68D9-F1E4-807B-D7A88E075E5B}">
 			<ShortName>GameplayLoop</ShortName>
 			<Path>GameplayLoop.bnk</Path>
 			<Media>
@@ -121,6 +125,10 @@
 					<ShortName>duality atmos v3.wav</ShortName>
 					<CachePath>SFX/duality atmos v3_9EDFC787.wem</CachePath>
 				</File>
+				<File Id="308328103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player Die.wav</ShortName>
+					<CachePath>SFX/Player Die_3F75BDB9.wem</CachePath>
+				</File>
 				<File Id="330616139" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sand Footsteps-010.wav</ShortName>
 					<CachePath>SFX/Sand Footsteps-010_3F75BDB9.wem</CachePath>
@@ -129,6 +137,10 @@
 					<ShortName>concreteFootsteps-004.wav</ShortName>
 					<CachePath>SFX/concreteFootsteps-004_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="359230073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>angelHurt.wav</ShortName>
+					<CachePath>SFX/angelHurt_AF5E4158.wem</CachePath>
+				</File>
 				<File Id="414036768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pickup-001.wav</ShortName>
 					<CachePath>SFX/pickup-001_3F75BDB9.wem</CachePath>
@@ -136,6 +148,10 @@
 				<File Id="442386729" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>concreteFootsteps-008.wav</ShortName>
 					<CachePath>SFX/concreteFootsteps-008_3F75BDB9.wem</CachePath>
+				</File>
+				<File Id="458265531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>playerHurt.wav</ShortName>
+					<CachePath>SFX/playerHurt_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="478753652" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>swordSwoosh-008.wav</ShortName>
@@ -229,9 +245,17 @@
 					<ShortName>concreteFootsteps-012.wav</ShortName>
 					<CachePath>SFX/concreteFootsteps-012_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="915005984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>angelAttack.wav</ShortName>
+					<CachePath>SFX/angelAttack_0D216CE8.wem</CachePath>
+				</File>
 				<File Id="915029577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Click_01.wav</ShortName>
 					<CachePath>SFX/Click_01_51379E30.wem</CachePath>
+				</File>
+				<File Id="933484744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>radiant horror.wav</ShortName>
+					<CachePath>SFX/radiant horror_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="960900169" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sand Footsteps-006.wav</ShortName>
@@ -249,8 +273,27 @@
 					<ShortName>swordSwoosh-014.wav</ShortName>
 					<CachePath>SFX/swordSwoosh-014_3F75BDB9.wem</CachePath>
 				</File>
+				<File Id="1029225269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>angelDead.wav</ShortName>
+					<CachePath>SFX/angelDead_9E3320C6.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="39016788" Name="angelAttack" DurationType="OneShot" DurationMin="0.93986946" DurationMax="1.0249348">
+					<MediaRefs>
+						<MediaRef Id="915005984"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1135119418" Name="angelDead" DurationType="OneShot" DurationMin="1.1588999" DurationMax="1.263789">
+					<MediaRefs>
+						<MediaRef Id="1029225269"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4285308811" Name="angelHurt" DurationType="OneShot" DurationMin="0.82891697" DurationMax="0.90394026">
+					<MediaRefs>
+						<MediaRef Id="359230073"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4051332235" Name="buttonClick" DurationType="OneShot" DurationMin="0.111106835" DurationMax="0.111106835">
 					<MediaRefs>
 						<MediaRef Id="838537379"/>
@@ -282,6 +325,9 @@
 						<ActionSetSwitchEntry GroupId="2385628198" Id="198879084" Name="stepRadiance"/>
 					</ActionSetSwitch>
 				</Event>
+				<Event Id="3773498749" Name="horrorAttack" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="711332739" Name="horrorDead" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1319226770" Name="horrorHurt" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1122283870" Name="musicStart" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -299,7 +345,7 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2753803885" Id="3468756197"/>
 							<MediaRefs>
-								<MediaRef Id="300619917"/>
+								<MediaRef Id="933484744"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -307,10 +353,19 @@
 						<ActionSetStateEntry GroupId="2753803885" Id="4082046343" Name="musicMenu"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2356585300" Name="playerDead" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="2356585300" Name="playerDead" DurationType="OneShot" DurationMin="2.87281" DurationMax="3.132821">
+					<MediaRefs>
+						<MediaRef Id="308328103"/>
+					</MediaRefs>
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="444815956" Id="2356585300" Name="playerDead"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="820529769" Name="playerHolyBolt" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3537581393" Name="playerHurt" DurationType="OneShot" DurationMin="1.5621355" DurationMax="1.8577026">
+					<MediaRefs>
+						<MediaRef Id="458265531"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="708819110" Name="playerLowHealth" DurationType="OneShot" DurationMin="1.6275343" DurationMax="1.7243125">
 					<MediaRefs>
@@ -386,7 +441,7 @@
 				</Event>
 				<Event Id="4153337164" Name="skeletonAttack" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1068009922" Name="skeletonDead" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1260832867" Name="skeletonHurt" DurationType="OneShot" DurationMin="0.2825554" DurationMax="0.33601692">
+				<Event Id="1260832867" Name="skeletonHurt" DurationType="OneShot" DurationMin="0.270576" DurationMax="0.35089362">
 					<MediaRefs>
 						<MediaRef Id="22527003"/>
 					</MediaRefs>
@@ -437,5 +492,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{02205C3D-4A63-4A67-EDEB-70881A336CC9}</FileHash>
+	<FileHash>{40857EA9-90BF-D037-F3C2-48C2ED4C1227}</FileHash>
 </SoundBanksInfo>

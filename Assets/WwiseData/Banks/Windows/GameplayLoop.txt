@@ -1,11 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	39016788	angelAttack			\Default Work Unit\NPCs\evilAngel\angelAttack	
 	91495195	corruptionShrine			\Default Work Unit\Objects\corruptionShrine	
 	412471812	playerStep			\Default Work Unit\Player\playerStep	
 	435007902	enterCorruption			\Default Work Unit\Music\enterCorruption	
 	708819110	playerLowHealth			\Default Work Unit\Player\playerLowHealth	
+	711332739	horrorDead			\Default Work Unit\NPCs\fleshHorror\horrorDead	
+	820529769	playerHolyBolt			\Default Work Unit\Player\playerHolyBolt	
 	1068009922	skeletonDead			\Default Work Unit\NPCs\Skeleton\skeletonDead	
 	1122283870	musicStart			\Default Work Unit\Music\musicStart	
+	1135119418	angelDead			\Default Work Unit\NPCs\evilAngel\angelDead	
 	1260832867	skeletonHurt			\Default Work Unit\NPCs\Skeleton\skeletonHurt	
+	1319226770	horrorHurt			\Default Work Unit\NPCs\fleshHorror\horrorHurt	
 	1330694103	radiantShrine			\Default Work Unit\Objects\radiantShrine	
 	1521187885	startGame			\Default Work Unit\UI\startGame	
 	2216463249	playerSwordSwing			\Default Work Unit\Player\playerSwordSwing	
@@ -13,8 +18,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2734591854	playerPickup			\Default Work Unit\Player\playerPickup	
 	3035572085	buttonHover			\Default Work Unit\UI\buttonHover	
 	3224502346	enterRadiance			\Default Work Unit\Music\enterRadiance	
+	3537581393	playerHurt			\Default Work Unit\Player\playerHurt	
+	3773498749	horrorAttack			\Default Work Unit\NPCs\fleshHorror\horrorAttack	
 	4051332235	buttonClick			\Default Work Unit\UI\buttonClick	
 	4153337164	skeletonAttack			\Default Work Unit\NPCs\Skeleton\skeletonAttack	
+	4285308811	angelHurt			\Default Work Unit\NPCs\evilAngel\angelHurt	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	footsteps			\Default Work Unit\footstepSwitches\footsteps	
@@ -46,10 +54,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	286456874	swordSwoosh-004	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-004		10825
 	294217505	Sand Footsteps-007	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Sand Footsteps-007_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-007		3813
 	300619917	duality atmos v3	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\duality atmos v3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\musicGameSwitch\musicCorruption\duality atmos v3\duality atmos v3		1372288
+	308328103	Player Die	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Player Die_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\playerDead\Player Die		26514
 	330616139	Sand Footsteps-010	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Sand Footsteps-010_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-010		3271
 	358217948	concreteFootsteps-004	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-004_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-004		5041
+	359230073	angelHurt	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\angelHurt_AF5E4158.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\Enemies\evilAngel\angelHurt\angelHurt		15100
 	414036768	pickup-001	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\pickup-001_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Pickup\pickup\pickup-001		6317
 	442386729	concreteFootsteps-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-008		4138
+	458265531	playerHurt	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\playerHurt_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\playerHurt\playerHurt		9146
 	478753652	swordSwoosh-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-008		13592
 	480523624	concreteFootsteps-006	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-006_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-006		3987
 	511295146	swordSwoosh-011	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-011_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-011		12262
@@ -73,9 +84,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	884094012	concreteFootsteps-005	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-005_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-005		5081
 	884493280	Sand Footsteps-008	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Sand Footsteps-008_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-008		3123
 	894467448	concreteFootsteps-012	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-012_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-012		3852
+	915005984	angelAttack	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\angelAttack_0D216CE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\Enemies\evilAngel\angelAttack\angelAttack		16144
 	915029577	buttonHover	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Click_01_51379E30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\Buttons\buttonHover		1306
+	933484744	radiant horror	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\radiant horror_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\musicGameSwitch\musicRadiance\radiant horror\radiant horror		1299106
 	960900169	Sand Footsteps-006	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\Sand Footsteps-006_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\radianceStep\Sand Footsteps-006		3219
 	985213926	radiantShrine	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\radiantShrine_76CDE464.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\shrineRadiant\radiantShrine		185415
 	1011154434	swordSwoosh-012	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-012_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-012		12169
 	1014907645	swordSwoosh-014	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-014_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-014		13800
+	1029225269	angelDead	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\angelDead_9E3320C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\Enemies\evilAngel\angelDead\angelDead		19963
 

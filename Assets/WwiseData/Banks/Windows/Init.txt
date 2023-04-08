@@ -17,6 +17,10 @@ State	ID	Name	State Group			Notes
 	2428916733	playerCorrupt	playerCorruptionLevel			
 	2966196035	playerNeutral	playerCorruptionLevel			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	sfxVolume			\Default Work Unit\sfxVolume	
+	2346531308	musicVolume			\Default Work Unit\musicVolume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\World\Ambient	
 	833916109	NPCs			\Default Work Unit\Master Audio Bus\World\NPCs	

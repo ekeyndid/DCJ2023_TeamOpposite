@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="GameplayLoop" ID="{08FF8133-217F-41DC-A3F0-3C8B7B7B7911}">
 					<ObjectInclusionList>
+						<ObjectRef Name="playerHurt" ID="{1D0A58AA-488F-411F-AD27-831885F14A7D}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="horrorHurt" ID="{DDDD4125-EA1E-417E-8431-5B69079F4F57}" WorkUnitID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playerPickup" ID="{60EABE81-7404-41C7-91F8-AEA45F73E841}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="horrorDead" ID="{9BB70A28-0400-426E-9F4C-0FD185338C85}" WorkUnitID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="angelAttack" ID="{B62ECDC9-B1D9-42E4-9E82-1210CFE9CB0F}" WorkUnitID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="buttonHover" ID="{6FC16205-5A2E-42F7-BF64-29D9B6EAC60D}" WorkUnitID="{78B08882-D098-49AF-B63E-6E091B951791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="buttonClick" ID="{88D2E405-807B-4391-963B-AFF0C76CDECD}" WorkUnitID="{78B08882-D098-49AF-B63E-6E091B951791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playerHolyBolt" ID="{EF2BD3BE-0BBA-43DF-B3ED-EB297463032C}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="enterCorruption" ID="{EFC7A650-A9A6-44A6-A380-FA53C5AF3EBB}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="corruptionShrine" ID="{D7051B37-417D-451B-B93B-82B6CA0BA6F1}" WorkUnitID="{0A383692-099D-4436-BFB8-B5D219AD2CAE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="startGame" ID="{2E7BB08A-C72C-45BB-82D8-191E831257FF}" WorkUnitID="{78B08882-D098-49AF-B63E-6E091B951791}" Origin="Manual" Filter="7"/>
@@ -16,10 +21,13 @@
 						<ObjectRef Name="radiantShrine" ID="{36A31C11-75A0-4820-8A7C-80716BCA34CA}" WorkUnitID="{0A383692-099D-4436-BFB8-B5D219AD2CAE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playerDead" ID="{4706BCC3-AB1E-48EA-98E2-2BDE555EF0F9}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="skeletonDead" ID="{3AD52127-6492-4940-9B65-C0A4617E0983}" WorkUnitID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="horrorAttack" ID="{7C10C324-DDAE-49E0-BECA-C640F23C1A2A}" WorkUnitID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="angelHurt" ID="{49FF2363-7143-4A3B-8004-2E0EF8789E3E}" WorkUnitID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="enterRadiance" ID="{2286D687-DD1D-4C38-BBF8-9B3D6C844837}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playerStep" ID="{DCA37E4B-0DD3-4D12-8036-142F94D09D56}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="musicStart" ID="{EBD593BE-D4CE-4D3F-ACE3-A2E85D46D3C0}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="skeletonAttack" ID="{D9CE71B1-E1F6-4DCE-BA2D-A5DE41D4B6F6}" WorkUnitID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="angelDead" ID="{07F2818B-D2B8-4F02-8FA3-590A53BA3067}" WorkUnitID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="skeletonHurt" ID="{0C5ADC34-36F2-4FBB-890A-A8809F9FDD02}" WorkUnitID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

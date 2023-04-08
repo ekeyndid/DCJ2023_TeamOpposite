@@ -78,6 +78,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="playerHolyBolt" ID="{EF2BD3BE-0BBA-43DF-B3ED-EB297463032C}">
+					<ChildrenList>
+						<Action Name="" ID="{EF2C836B-2D60-4149-8748-4D5D6DB84570}" ShortID="383090456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="radiantBolt" ID="{64DAE933-3640-4EFA-9938-E7038A131878}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="playerHurt" ID="{1D0A58AA-488F-411F-AD27-831885F14A7D}">
+					<ChildrenList>
+						<Action Name="" ID="{F9ED9E09-9EE8-4CE8-AF6F-48BAD6F99E9C}" ShortID="43819456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerHurt" ID="{6B2E23BA-E267-49CC-A861-01E47923649F}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -13,13 +13,21 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ANGELATTACK = 39016788U;
+        static const AkUniqueID ANGELDEAD = 1135119418U;
+        static const AkUniqueID ANGELHURT = 4285308811U;
         static const AkUniqueID BUTTONCLICK = 4051332235U;
         static const AkUniqueID BUTTONHOVER = 3035572085U;
         static const AkUniqueID CORRUPTIONSHRINE = 91495195U;
         static const AkUniqueID ENTERCORRUPTION = 435007902U;
         static const AkUniqueID ENTERRADIANCE = 3224502346U;
+        static const AkUniqueID HORRORATTACK = 3773498749U;
+        static const AkUniqueID HORRORDEAD = 711332739U;
+        static const AkUniqueID HORRORHURT = 1319226770U;
         static const AkUniqueID MUSICSTART = 1122283870U;
         static const AkUniqueID PLAYERDEAD = 2356585300U;
+        static const AkUniqueID PLAYERHOLYBOLT = 820529769U;
+        static const AkUniqueID PLAYERHURT = 3537581393U;
         static const AkUniqueID PLAYERLOWHEALTH = 708819110U;
         static const AkUniqueID PLAYERPICKUP = 2734591854U;
         static const AkUniqueID PLAYERSTEP = 412471812U;
@@ -88,6 +96,12 @@ namespace AK
         } // namespace FOOTSTEPS
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MUSICVOLUME = 2346531308U;
+        static const AkUniqueID SFXVOLUME = 988953028U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
