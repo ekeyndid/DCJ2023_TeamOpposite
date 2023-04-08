@@ -23,6 +23,7 @@
 						<ObjectRef Name="skeletonDead" ID="{3AD52127-6492-4940-9B65-C0A4617E0983}" WorkUnitID="{45D0DDF1-B05B-4601-ABE8-47237821B1B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="horrorAttack" ID="{7C10C324-DDAE-49E0-BECA-C640F23C1A2A}" WorkUnitID="{7802523C-905B-4CE8-ACE6-439BEAC3BA0F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="angelHurt" ID="{49FF2363-7143-4A3B-8004-2E0EF8789E3E}" WorkUnitID="{6C281FEC-3B15-45E2-BCC2-3E11B9985AE8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="playerPotion" ID="{65587253-28AD-4B81-8C3E-BCFC72332365}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="enterRadiance" ID="{2286D687-DD1D-4C38-BBF8-9B3D6C844837}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="playerStep" ID="{DCA37E4B-0DD3-4D12-8036-142F94D09D56}" WorkUnitID="{3AAFD26B-733B-4450-827C-F864F5606DDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="musicStart" ID="{EBD593BE-D4CE-4D3F-ACE3-A2E85D46D3C0}" WorkUnitID="{34981267-3A52-4DC5-B17D-03AA54F2F8CE}" Origin="Manual" Filter="7"/>

@@ -35,6 +35,17 @@ MonoBehaviour:
     LocalizedStreamingMediaKeys: []
     LocalizedStreamingMediaValues:
       localizedMediaList: []
+  - WwisePlatform: Windows
+    LocalizedBankKeys:
+    - SFX
+    LocalizedBanksValues:
+    - m_AssetGUID: 97e4d4820fb323449bb52db24543b58b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    LocalizedStreamingMediaKeys: []
+    LocalizedStreamingMediaValues:
+      localizedMediaList: []
   - WwisePlatform: Web
     LocalizedBankKeys:
     - SFX
@@ -47,11 +58,11 @@ MonoBehaviour:
     LocalizedStreamingMediaValues:
       localizedMediaList: []
   currentPlatformAssets:
-    WwisePlatform: Windows
+    WwisePlatform: Web
     LocalizedBankKeys:
     - SFX
     LocalizedBanksValues:
-    - m_AssetGUID: 97e4d4820fb323449bb52db24543b58b
+    - m_AssetGUID: 3f14798a1bbd86a4192748f29f817384
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
