@@ -11,6 +11,7 @@ public class DungeonGenerator : MonoBehaviour
     }
 
     public Vector2 size;
+    public GameObject player;
     public int startPosition = 0;
     public GameObject room;
     public Vector2 offset;
@@ -20,6 +21,7 @@ public class DungeonGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GetComponent<GameObject>();
         MazeGenerator();
     }
 
