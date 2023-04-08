@@ -21,7 +21,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="musicVolume" ID="{6881579E-D9B6-44FF-A6EA-CDC1D634AE9E}"/>
-							<Value>90</Value>
+							<Value>51.0265700483092</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SFXVolume" ID="{40A980A8-F909-48C1-855D-8F6CABE36D96}"/>
@@ -29,7 +29,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="playerAlive" ID="{F2D015D6-2BC8-4F9C-B830-43DE60B10C76}"/>
+						<CurrentStateRef Name="None" ID="{F3CC758C-0769-457A-8547-A0C370CA8641}"/>
 						<CurrentStateRef Name="musicRadiance" ID="{E9DECE0B-59C5-4564-88BD-510AC9C23F31}"/>
 						<CurrentStateRef Name="playerNeutral" ID="{CDDDC824-FE69-4B61-81C3-79BEA369C3C6}"/>
 					</CurrentStateList>

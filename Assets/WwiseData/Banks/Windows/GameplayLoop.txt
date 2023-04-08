@@ -32,9 +32,14 @@ Switch	ID	Name	Switch Group			Notes
 	786608188	stepCorruption	footsteps			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	444815956	playerLife			\Default Work Unit\gameStates\playerLife	
 	2753803885	MusicRegions			\Default Work Unit\Music\MusicRegions	
 
 State	ID	Name	State Group			Notes
+	748895195	None	playerLife			
+	1849584180	playerLowHP	playerLife			
+	2356585300	playerDead	playerLife			
+	2557321869	playerAlive	playerLife			
 	274529429	musicCorruption	MusicRegions			
 	748895195	None	MusicRegions			
 	3468756197	musicRadiance	MusicRegions			
@@ -77,6 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	765300565	swordSwoosh-015	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-015_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-015		10690
 	774342695	swordSwoosh-010	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\swordSwoosh-010_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Weapons\basicSword\swordSwoosh-010		11018
 	783504052	concreteFootsteps-007	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-007_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-007		4072
+	823412063	death oneshot	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\death oneshot_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\musicGameSwitch\musicDead\death oneshot\death oneshot		167405
 	833445626	concreteFootsteps-011	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\concreteFootsteps-011_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\footstepSwitch\corruptionStep\concreteFootsteps-011		3849
 	838537379	buttonClick	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\buttonClick_0C838AB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI\Buttons\buttonClick		2666
 	848577775	pickup-002	D:\Game_Production\UnityProjects\DCJ2023_TeamOpposite\DCJ2023_TeamOpposite_WwiseProject\.cache\Windows\SFX\pickup-002_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Pickup\pickup\pickup-002		7001
