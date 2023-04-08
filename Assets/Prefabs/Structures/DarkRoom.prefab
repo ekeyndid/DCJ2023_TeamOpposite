@@ -59,8 +59,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3157022942763409506}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1, y: 4, z: -3}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 0.37, y: 3.03, z: -3.4}
+  m_LocalScale: {x: 12.03, y: 12.03, z: 12.03}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6287256444870040017}
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 4206060385592397942}
   - component: {fileID: 4206060385592397897}
   m_Layer: 0
-  m_Name: Room
+  m_Name: DarkRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
