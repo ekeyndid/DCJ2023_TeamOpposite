@@ -104,6 +104,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="skeletonAttack" ID="{CA698D56-4575-40E8-AB0C-7A4BFC58AD25}" ShortID="1001263347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="skeletonAttack" ID="{77062A1F-D2D4-4D68-89F1-5E854B8D49E7}">
+													<Language>SFX</Language>
+													<AudioFile>skeletonAttack.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="640010046"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="skeletonAttack" ID="{77062A1F-D2D4-4D68-89F1-5E854B8D49E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="skeletonDead" ID="{1CF98A04-E113-4283-97C3-F7B1678DF6D5}" ShortID="551906368">
 									<ReferenceList>
@@ -114,6 +138,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="skeletonDie" ID="{D6B7EC19-D7A9-4EAA-946D-3315FE24ECC2}" ShortID="698922762">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="skeletonDie" ID="{7BCF488D-2843-46B0-8D6B-29B1BC2434C8}">
+													<Language>SFX</Language>
+													<AudioFile>skeletonDie.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="978931915"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="skeletonDie" ID="{7BCF488D-2843-46B0-8D6B-29B1BC2434C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
@@ -295,6 +343,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="horrorAttack" ID="{FC4A6B02-34E8-4B69-9787-168BE07A67D9}" ShortID="695017129">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="horrorAttack" ID="{6B52276F-1A94-4E85-9AB8-BBBABF185DE6}">
+													<Language>SFX</Language>
+													<AudioFile>horrorAttack.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="398718629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="horrorAttack" ID="{6B52276F-1A94-4E85-9AB8-BBBABF185DE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="horrorDead" ID="{BAD4BBD4-BCED-4390-84D7-7E06C0A18EAD}" ShortID="741672410">
 									<ReferenceList>
@@ -305,6 +377,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="horrorDead" ID="{27237C58-DB61-42E6-83D6-BF47411C5293}" ShortID="365733672">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="horrorDead" ID="{BB6E916C-A6A4-49A0-9C0B-2D6E72E50AC9}">
+													<Language>SFX</Language>
+													<AudioFile>horrorDead.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1023078210"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="horrorDead" ID="{BB6E916C-A6A4-49A0-9C0B-2D6E72E50AC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="horrorHurt" ID="{CED7AA1F-D367-442E-A5F3-BAFC179FEC8F}" ShortID="992316977">
 									<ReferenceList>
@@ -315,6 +411,64 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="horrorHurt-001" ID="{450938F9-B9DB-424B-B20B-FB6AC6A860F3}" ShortID="540906786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="horrorHurt-001" ID="{11E85DA6-DB9C-4BDF-AB2F-9EAA1B776BAC}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.142490372272144"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.878048780487805"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.16431322207958"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>horrorHurt-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="643112827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="horrorHurt-001" ID="{11E85DA6-DB9C-4BDF-AB2F-9EAA1B776BAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="horrorHurt-002" ID="{F5BA8008-59BB-4045-8937-BBE9434B4613}" ShortID="258880210">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2E57B495-78F0-4C33-ADBD-1B053B886BA5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F847E008-FB7F-4165-9558-D941ADA030C4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="horrorHurt-002" ID="{995EC741-5A09-40A8-9C06-2BC0AF97F603}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0885742404792467"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.521380188275568"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.33916516902011"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>horrorHurt-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="265137700"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="horrorHurt-002" ID="{995EC741-5A09-40A8-9C06-2BC0AF97F603}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>

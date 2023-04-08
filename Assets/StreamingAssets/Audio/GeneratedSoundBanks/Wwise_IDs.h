@@ -30,6 +30,7 @@ namespace AK
         static const AkUniqueID PLAYERHURT = 3537581393U;
         static const AkUniqueID PLAYERLOWHEALTH = 708819110U;
         static const AkUniqueID PLAYERPICKUP = 2734591854U;
+        static const AkUniqueID PLAYERPOTION = 3147339275U;
         static const AkUniqueID PLAYERSTEP = 412471812U;
         static const AkUniqueID PLAYERSWORDSWING = 2216463249U;
         static const AkUniqueID RADIANTSHRINE = 1330694103U;

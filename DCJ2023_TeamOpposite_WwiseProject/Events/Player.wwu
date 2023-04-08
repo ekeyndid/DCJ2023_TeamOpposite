@@ -100,6 +100,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="playerPotion" ID="{65587253-28AD-4B81-8C3E-BCFC72332365}">
+					<ChildrenList>
+						<Action Name="" ID="{D8712236-1490-43E8-A049-34CE379B320A}" ShortID="504069438">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerPotion" ID="{0D0DF3B7-FF4B-4B0B-BD2D-0A7D163CC8D2}" WorkUnitID="{F6F679A0-95D2-46EE-9368-54246AF51312}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
