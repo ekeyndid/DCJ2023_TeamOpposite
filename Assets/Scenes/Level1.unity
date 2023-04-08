@@ -223,9 +223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f2fb100dabd6c45a0f998b722e5094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 3, y: 3}
+  size: {x: 10, y: 10}
+  player: {fileID: 4155386978667571528, guid: 379fe7e98eac11a4ab6cd48f96fa0e37, type: 3}
   startPosition: 0
-  room: {fileID: 4206060385592397943, guid: 8bb84bc830628c54f9c4afa62513e798, type: 3}
+  rooms:
+  - {fileID: 4206060385592397943, guid: 8bb84bc830628c54f9c4afa62513e798, type: 3}
+  - {fileID: 4206060385592397943, guid: 4fec5d8e19502ab4f8b3754a88ed6b9c, type: 3}
   offset: {x: 11.80267, y: 11.80267}
 --- !u!4 &362305326
 Transform:
